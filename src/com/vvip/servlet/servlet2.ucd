@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="servlet2" size="2111,3124" id="com.vvip.servlet" metadata="uml2-1.0" initialized="true" scrolledY="836" tag="1000" key="32303037303533312D3130303020767669707365727665722F67756779756C696D">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.7/@sourceConnections.0" name="DatabaseManager" location="1200,15" size="207,766" id="com.vvip.util/DatabaseManager">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="184,702">
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="com.vvip.util/DatabaseManager#close(Ljava.sql.Connection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCorporationTable" id="com.vvip.util/DatabaseManager#createCorporationTable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createGATable" id="com.vvip.util/DatabaseManager#createGATable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMarketTable" id="com.vvip.util/DatabaseManager#createMarketTable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createQuoteTable" id="com.vvip.util/DatabaseManager#createQuoteTable(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deleteQuote" id="com.vvip.util/DatabaseManager#deleteQuote(IIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dropGATable" id="com.vvip.util/DatabaseManager#dropGATable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dropQuoteTables" id="com.vvip.util/DatabaseManager#dropQuoteTables(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConnection" id="com.vvip.util/DatabaseManager#connection(Ljava.sql.Connection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDBSymbolIndex" id="com.vvip.util/DatabaseManager#getDBSymbolIndex(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeneBySymbol" id="com.vvip.util/DatabaseManager#getGeneBySymbol(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHash" id="com.vvip.util/DatabaseManager#getHash(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastDateBySymbol" id="com.vvip.util/DatabaseManager#getLastDateBySymbol(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastQuoteBySymbol" id="com.vvip.util/DatabaseManager#getLastQuoteBySymbol(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastQuoteDifferenceBySymbol" id="com.vvip.util/DatabaseManager#getLastQuoteDifferenceBySymbol(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarketIndex" id="com.vvip.util/DatabaseManager#getMarketIndex(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getQuoteCount" id="com.vvip.util/DatabaseManager#getQuoteCount(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertCompany" id="com.vvip.util/DatabaseManager#insertCompany(Lcom.vvip.quote.Company;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertGene" id="com.vvip.util/DatabaseManager#insertGene(Lcom.vvip.ga.GeneResult;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertMarket" id="com.vvip.util/DatabaseManager#insertMarket(Lcom.vvip.quote.Market;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertQuoteListToSymbol" id="com.vvip.util/DatabaseManager#insertQuoteListToSymbol(Lcom.vvip.quote.QuoteList;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertQuoteToSymbol" id="com.vvip.util/DatabaseManager#insertQuoteToSymbol(Lcom.vvip.quote.Quote;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="searchCompanyByInput" id="com.vvip.util/DatabaseManager#searchCompanyByInput(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="searchCompanyByMarket" id="com.vvip.util/DatabaseManager#searchCompanyByMarket(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectCompanyByIndex" id="com.vvip.util/DatabaseManager#selectCompanyByIndex(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectCompanyBySymbol" id="com.vvip.util/DatabaseManager#selectCompanyBySymbol(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectCompanyTop" id="com.vvip.util/DatabaseManager#selectCompanyTop()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectGeneResultListALLByIndex" id="com.vvip.util/DatabaseManager#selectGeneResultListALLByIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectGeneResultListByIndex" id="com.vvip.util/DatabaseManager#selectGeneResultListByIndex(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectGeneResultTop" id="com.vvip.util/DatabaseManager#selectGeneResultTop()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectLastTwoDaysBySymbol" id="com.vvip.util/DatabaseManager#selectLastTwoDaysBySymbol(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectLimitQuoteListBySymbol" id="com.vvip.util/DatabaseManager#selectLimitQuoteListBySymbol(IIIIIZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectMarketByIndex" id="com.vvip.util/DatabaseManager#selectMarketByIndex(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectMarketByName" id="com.vvip.util/DatabaseManager#selectMarketByName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectQuoteListByDate" id="com.vvip.util/DatabaseManager#selectQuoteListByDate(IIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectQuoteListBySymbol" id="com.vvip.util/DatabaseManager#selectQuoteListBySymbol(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setConnection" id="com.vvip.util/DatabaseManager#setConnection(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCompanySearchBySymbol" id="com.vvip.util/DatabaseManager#updateCompanySearchBySymbol(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateGeneBySymbol" id="com.vvip.util/DatabaseManager#updateGeneBySymbol(ILcom.vvip.ga.GeneResult;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.util/DatabaseManager->Standard::Call" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,766" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.util/DatabaseManager->Standard::Call" source="//@children.0" target="//@children.8" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,630" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,135"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.util/DatabaseManager->Standard::Call" source="//@children.0" target="//@children.9" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,735" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.util/DatabaseManager->Standard::Call" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,380" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,140"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.util/DatabaseManager->Standard::Call" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,177" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,192"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.9/@sourceConnections.1" name="TradeDate" location="645,915" size="118,424" id="com.vvip.quote/TradeDate">
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="day" id="com.vvip.quote/TradeDate#day"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="month" id="com.vvip.quote/TradeDate#month"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="year" id="com.vvip.quote/TradeDate#year"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,306">
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate(Ljava.util.Calendar;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDate" id="com.vvip.quote/TradeDate#TradeDate(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="after" id="com.vvip.quote/TradeDate#after(Lcom.vvip.quote.TradeDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="before" id="com.vvip.quote/TradeDate#before(Lcom.vvip.quote.TradeDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="com.vvip.quote/TradeDate#compareTo(Lcom.vvip.quote.TradeDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="com.vvip.quote/TradeDate#equals(Lcom.vvip.quote.TradeDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDayOfWeek" id="com.vvip.quote/TradeDate#getDayOfWeek()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isWeekend" id="com.vvip.quote/TradeDate#isWeekend()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="next" id="com.vvip.quote/TradeDate#next(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="previous" id="com.vvip.quote/TradeDate#previous(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toCalendar" id="com.vvip.quote/TradeDate#toCalendar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toInt" id="com.vvip.quote/TradeDate#toInt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.vvip.quote/TradeDate#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.quote/TradeDate->Standard::Send" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Send, Import»" size="126,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,370" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.5 //@children.7/@sourceConnections.3 //@children.0/@sourceConnections.4" name="Company" location="420,0" size="128,370" id="com.vvip.quote/Company">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="marketIndex" id="com.vvip.quote/Company#marketIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nameInEng" id="com.vvip.quote/Company#nameInEng"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nameInKor" id="com.vvip.quote/Company#nameInKor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="searchCount" id="com.vvip.quote/Company#searchCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="symbol" id="com.vvip.quote/Company#symbol"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="symbolIndex" id="com.vvip.quote/Company#symbolIndex"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,198">
+      <children xsi:type="editmodel:MethodEditModel" name="Company" id="com.vvip.quote/Company#Company(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Company" id="com.vvip.quote/Company#Company(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Company" id="com.vvip.quote/Company#Company(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="com.vvip.quote/Company#compareTo(Lcom.vvip.quote.Company;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarketIndex" id="com.vvip.quote/Company#getMarketIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNameInEng" id="com.vvip.quote/Company#getNameInEng()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNameInKor" id="com.vvip.quote/Company#getNameInKor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSearchCount" id="com.vvip.quote/Company#getSearchCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.vvip.quote/Company#getSymbol()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbolIndex" id="com.vvip.quote/Company#getSymbolIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.vvip.quote/Company#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="TradeDateFormatException" location="855,1245" size="203,82" id="com.vvip.quote/TradeDateFormatException">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,18">
+      <children xsi:type="editmodel:MethodEditModel" name="TradeDateFormatException" id="com.vvip.quote/TradeDateFormatException#TradeDateFormatException(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3 //@children.7/@sourceConnections.1 //@children.0/@sourceConnections.3" name="Market" location="870,255" size="135,280" id="com.vvip.quote/Market">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="hash" id="com.vvip.quote/Market#hash"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="marketIndex" id="com.vvip.quote/Market#marketIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="moneyPosition" id="com.vvip.quote/Market#moneyPosition"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="com.vvip.quote/Market#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nation" id="com.vvip.quote/Market#nation"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Market" id="com.vvip.quote/Market#Market(ILjava.lang.String;Ljava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Market" id="com.vvip.quote/Market#Market(Ljava.lang.String;Ljava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHash" id="com.vvip.quote/Market#getHash()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarketIndex" id="com.vvip.quote/Market#getMarketIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMoneyPosition" id="com.vvip.quote/Market#getMoneyPosition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="com.vvip.quote/Market#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNation" id="com.vvip.quote/Market#getNation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.9/@sourceConnections.0" name="Quote" location="1275,870" size="113,478" id="com.vvip.quote/Quote">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="close" id="com.vvip.quote/Quote#close"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="high" id="com.vvip.quote/Quote#high"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="low" id="com.vvip.quote/Quote#low"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="open" id="com.vvip.quote/Quote#open"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pattern" id="com.vvip.quote/Quote#pattern"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="volume" id="com.vvip.quote/Quote#volume"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,306">
+      <children xsi:type="editmodel:MethodEditModel" name="Quote" id="com.vvip.quote/Quote#Quote(Lcom.vvip.quote.TradeDate;DDDDJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Quote" id="com.vvip.quote/Quote#Quote(IIIDDDDJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Quote" id="com.vvip.quote/Quote#Quote(Lcom.vvip.quote.TradeDate;DDDDJLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Quote" id="com.vvip.quote/Quote#Quote(IIIDDDDJLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="com.vvip.quote/Quote#compareTo(Lcom.vvip.quote.Quote;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getClose" id="com.vvip.quote/Quote#getClose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHigh" id="com.vvip.quote/Quote#getHigh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLow" id="com.vvip.quote/Quote#getLow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOpen" id="com.vvip.quote/Quote#getOpen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPattern" id="com.vvip.quote/Quote#getPattern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTradeDate" id="com.vvip.quote/Quote#getTradeDate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVolume" id="com.vvip.quote/Quote#getVolume()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHigh" id="com.vvip.quote/Quote#setHigh(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLow" id="com.vvip.quote/Quote#setLow(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPattern" id="com.vvip.quote/Quote#setPattern(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.vvip.quote/Quote#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="verify" id="com.vvip.quote/Quote#verify()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.vvip.quote/Quote@quotes+com.vvip.quote/QuoteList@" source="//@children.5" target="//@children.9" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="quotes" location="0,74" id="com.vvip.quote/Quote@quotes+com.vvip.quote/QuoteList@|com.vvip.quote/Quote#quotes" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - quotes" location="1227,923" size="41,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1262,951" size="6,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,224" id="com.vvip.quote/Quote@quotes+com.vvip.quote/QuoteList@|com.vvip.quote/QuoteList#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.quote/Quote->Standard::Call" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,256" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,211"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ItemRecommend" location="750,563" size="142,30" id="com.vvip.servlet/ItemRecommend">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.servlet/ItemRecommend-Standard::Call->com.vvip.util/DatabaseManager" source="//@children.6" target="//@children.0" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="27,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,562"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.servlet/ItemRecommend-Standard::Call->com.vvip.ga/GeneResult" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="27,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.2" name="GeneticAlgorithm" location="60,105" size="204,946" id="com.vvip.ga/GeneticAlgorithm">
+    <children xsi:type="editmodel:CompartmentEditModel" size="181,594">
+      <children xsi:type="editmodel:AttributeEditModel" name="bUY" id="com.vvip.ga/GeneticAlgorithm#bUY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bUY_CHARGE" id="com.vvip.ga/GeneticAlgorithm#bUY_CHARGE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="close" id="com.vvip.ga/GeneticAlgorithm#close"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crossoverRate" id="com.vvip.ga/GeneticAlgorithm#crossoverRate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dAY_OF_RISK_FREE_RATE" id="com.vvip.ga/GeneticAlgorithm#dAY_OF_RISK_FREE_RATE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gENE_SIZE" id="com.vvip.ga/GeneticAlgorithm#gENE_SIZE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="geneX" id="com.vvip.ga/GeneticAlgorithm#geneX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="geneY" id="com.vvip.ga/GeneticAlgorithm#geneY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="generation" id="com.vvip.ga/GeneticAlgorithm#generation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="genes" id="com.vvip.ga/GeneticAlgorithm#genes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hOLD" id="com.vvip.ga/GeneticAlgorithm#hOLD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="high" id="com.vvip.ga/GeneticAlgorithm#high"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="low" id="com.vvip.ga/GeneticAlgorithm#low"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="macd" id="com.vvip.ga/GeneticAlgorithm#macd"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="macdElement" id="com.vvip.ga/GeneticAlgorithm#macdElement"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="macdIdx" id="com.vvip.ga/GeneticAlgorithm#macdIdx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxGeneration" id="com.vvip.ga/GeneticAlgorithm#maxGeneration"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mutationRate" id="com.vvip.ga/GeneticAlgorithm#mutationRate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="osc" id="com.vvip.ga/GeneticAlgorithm#osc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="population" id="com.vvip.ga/GeneticAlgorithm#population"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEADY" id="com.vvip.ga/GeneticAlgorithm#rEADY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sELECTION_PRESSURE" id="com.vvip.ga/GeneticAlgorithm#sELECTION_PRESSURE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sELL" id="com.vvip.ga/GeneticAlgorithm#sELL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sELL_CHARGE" id="com.vvip.ga/GeneticAlgorithm#sELL_CHARGE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTART_INDEX" id="com.vvip.ga/GeneticAlgorithm#sTART_INDEX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="signal" id="com.vvip.ga/GeneticAlgorithm#signal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="status" id="com.vvip.ga/GeneticAlgorithm#status"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stcElement" id="com.vvip.ga/GeneticAlgorithm#stcElement"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stcIdx" id="com.vvip.ga/GeneticAlgorithm#stcIdx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stochD" id="com.vvip.ga/GeneticAlgorithm#stochD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="stochK" id="com.vvip.ga/GeneticAlgorithm#stochK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sumFitness" id="com.vvip.ga/GeneticAlgorithm#sumFitness"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tAX_RATE" id="com.vvip.ga/GeneticAlgorithm#tAX_RATE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,288">
+      <children xsi:type="editmodel:MethodEditModel" name="GeneticAlgorithm" id="com.vvip.ga/GeneticAlgorithm#GeneticAlgorithm(IIDDLcom.vvip.quote.QuoteList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GeneticAlgorithm" id="com.vvip.ga/GeneticAlgorithm#GeneticAlgorithm(Lcom.vvip.quote.QuoteList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateProfit" id="com.vvip.ga/GeneticAlgorithm#calculateProfit(IIIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="crossover" id="com.vvip.ga/GeneticAlgorithm#crossover()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fitnessMeasure" id="com.vvip.ga/GeneticAlgorithm#fitnessMeasure()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastStatus" id="com.vvip.ga/GeneticAlgorithm#getLastStatus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomNumber" id="com.vvip.ga/GeneticAlgorithm#getRandomNumber(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initializePopulation" id="com.vvip.ga/GeneticAlgorithm#initializePopulation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="com.vvip.ga/GeneticAlgorithm#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mutation" id="com.vvip.ga/GeneticAlgorithm#mutation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="profitToPercentage" id="com.vvip.ga/GeneticAlgorithm#profitToPercentage(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reverseBinary" id="com.vvip.ga/GeneticAlgorithm#reverseBinary([CII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.vvip.ga/GeneticAlgorithm#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectGene" id="com.vvip.ga/GeneticAlgorithm#selectGene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selection" id="com.vvip.ga/GeneticAlgorithm#selection()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="terminate" id="com.vvip.ga/GeneticAlgorithm#terminate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneticAlgorithm-Standard::Call->com.vvip.util/DatabaseManager" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="27,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,337" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,427"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneticAlgorithm->Standard::Call" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,290" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,140"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneticAlgorithm->Standard::Call" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,885" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneticAlgorithm->Standard::Call" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,132" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,237"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneticAlgorithm->Standard::Call" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.4/@children.2" label="//@children.7/@sourceConnections.4/@children.0" sourceEnd="//@children.7/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,764" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,149"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1 //@children.0/@sourceConnections.1" name="GeneResult" location="420,510" size="128,334" id="com.vvip.ga/GeneResult">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="end" id="com.vvip.ga/GeneResult#end"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gene" id="com.vvip.ga/GeneResult#gene"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indexNumber" id="com.vvip.ga/GeneResult#indexNumber"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="start" id="com.vvip.ga/GeneResult#start"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="status" id="com.vvip.ga/GeneResult#status"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="symbolIndex" id="com.vvip.ga/GeneResult#symbolIndex"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,162">
+      <children xsi:type="editmodel:MethodEditModel" name="GeneResult" id="com.vvip.ga/GeneResult#GeneResult(ILcom.vvip.ga.Gene;IILcom.vvip.quote.TradeDate;Lcom.vvip.quote.TradeDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEnd" id="com.vvip.ga/GeneResult#getEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGene" id="com.vvip.ga/GeneResult#getGene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndexNumber" id="com.vvip.ga/GeneResult#getIndexNumber()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStart" id="com.vvip.ga/GeneResult#getStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStatus" id="com.vvip.ga/GeneResult#getStatus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbolIndex" id="com.vvip.ga/GeneResult#getSymbolIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.vvip.ga/GeneResult#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateStatue" id="com.vvip.ga/GeneResult#updateStatue()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult-Standard::Call->com.vvip.util/DatabaseManager" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="27,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,155" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,634"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult->Standard::Call" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,272" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,62"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult->Standard::Call" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,166" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,571"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult->Standard::Call" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,267"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult->Standard::Call" source="//@children.8" target="//@children.10" targetEnd="//@children.8/@sourceConnections.4/@children.2" label="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,334" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.ga/GeneResult->Standard::Call" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.5/@children.2" label="//@children.8/@sourceConnections.5/@children.0" sourceEnd="//@children.8/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="63,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,370"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.8/@sourceConnections.1 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.4" name="QuoteList" location="840,720" size="126,298" id="com.vvip.quote/QuoteList">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="marketIndex" id="com.vvip.quote/QuoteList#marketIndex"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,216">
+      <children xsi:type="editmodel:MethodEditModel" name="QuoteList" id="com.vvip.quote/QuoteList#QuoteList(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addQuote" id="com.vvip.quote/QuoteList#addQuote(IIIDDDDJ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addQuote" id="com.vvip.quote/QuoteList#addQuote(IIIDDDDJLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addQuote" id="com.vvip.quote/QuoteList#addQuote(Lcom.vvip.quote.Quote;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastDate" id="com.vvip.quote/QuoteList#getLastDate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getList" id="com.vvip.quote/QuoteList#getList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarketIndex" id="com.vvip.quote/QuoteList#getMarketIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getQuote" id="com.vvip.quote/QuoteList#getQuote(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSize" id="com.vvip.quote/QuoteList#getSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbolIndex" id="com.vvip.quote/QuoteList#getSymbolIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reverseList" id="com.vvip.quote/QuoteList#reverseList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sortList" id="com.vvip.quote/QuoteList#sortList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.quote/QuoteList->Standard::Call" source="//@children.9" target="//@children.5" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="120,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,204" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.vvip.quote/QuoteList-Soyatec::Import->com.vvip.quote/TradeDate" source="//@children.9" target="//@children.1" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="38,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,246" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,51"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.4 //@children.7/@sourceConnections.2" name="Gene" location="416,930" size="135,712" id="com.vvip.ga/Gene">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="fastK" id="com.vvip.ga/Gene#fastK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fitness" id="com.vvip.ga/Gene#fitness"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indexNumber" id="com.vvip.ga/Gene#indexNumber"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="longMA" id="com.vvip.ga/Gene#longMA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="macdMA" id="com.vvip.ga/Gene#macdMA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="profit" id="com.vvip.ga/Gene#profit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shortMA" id="com.vvip.ga/Gene#shortMA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="slowD" id="com.vvip.ga/Gene#slowD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="slowK" id="com.vvip.ga/Gene#slowK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="status" id="com.vvip.ga/Gene#status"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,468">
+      <children xsi:type="editmodel:MethodEditModel" name="Gene" id="com.vvip.ga/Gene#Gene(Ljava.lang.String;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Gene" id="com.vvip.ga/Gene#Gene(IIIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="IntegerToBinary" id="com.vvip.ga/Gene#IntegerToBinary(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkGene" id="com.vvip.ga/Gene#checkGene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="com.vvip.ga/Gene#compareTo(Lcom.vvip.ga.Gene;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinaryFastK" id="com.vvip.ga/Gene#getBinaryFastK()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinaryGene" id="com.vvip.ga/Gene#getBinaryGene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinaryLongMA" id="com.vvip.ga/Gene#getBinaryLongMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinaryMacdMA" id="com.vvip.ga/Gene#getBinaryMacdMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinaryShortMA" id="com.vvip.ga/Gene#getBinaryShortMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinarySlowD" id="com.vvip.ga/Gene#getBinarySlowD()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBinarySlowK" id="com.vvip.ga/Gene#getBinarySlowK()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFastK" id="com.vvip.ga/Gene#getFastK()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFitness" id="com.vvip.ga/Gene#getFitness()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLongMA" id="com.vvip.ga/Gene#getLongMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMacdMA" id="com.vvip.ga/Gene#getMacdMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProfit" id="com.vvip.ga/Gene#getProfit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShortMA" id="com.vvip.ga/Gene#getShortMA()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSlowD" id="com.vvip.ga/Gene#getSlowD()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSlowK" id="com.vvip.ga/Gene#getSlowK()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFitness" id="com.vvip.ga/Gene#setFitness(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGene" id="com.vvip.ga/Gene#setGene([C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGene" id="com.vvip.ga/Gene#setGene(IIIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGene" id="com.vvip.ga/Gene#setGene([C[C[C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProfit" id="com.vvip.ga/Gene#setProfit(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.vvip.ga/Gene#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="All" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

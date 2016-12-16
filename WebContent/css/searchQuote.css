@@ -1,0 +1,113 @@
+@CHARSET "EUC-KR";
+
+#quote{
+    font-family:"맑은 고딕";
+    font-size:12pt;
+    border: 1px solid #c8c8c8;
+    width:100%;
+}
+#quote th{
+    border-bottom: 1px solid #c8c8c8;
+    height: 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#quote tr{
+   
+}
+#quote td{
+    text-align:center;
+    padding:5px;
+    width:100px;
+}
+#quote td.right{
+   text-align:right;
+}
+
+#page{
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    font-size:15pt;
+    font-family:"맑은 고딕";
+}
+
+#page a{
+    text-decoration:none;   
+    color:#000;
+}
+#current a{
+    color:#0a62ff;
+    font-size:16pt;
+    border-bottom: 3px solid #48dad2; 
+}
+
+#plus {
+    color:red;
+}
+
+#minus {
+    color:blue;
+}
+
+#result {
+    width:100%;
+	font-size: 14pt;
+	border: 2px solid #424242;
+	border-radius: 15px;
+	box-shadow: 2px 3px 7px #424242;
+	background-color: #FFFFFF;
+	margin: 4% 0 0 0;
+	padding : 20px;
+	color: #111;
+}
+#result th{
+    border-bottom: 1px solid #c8c8c8;
+    height: 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#result td{
+    text-align:right;
+    padding:5px;
+}
+#result td.index{
+    text-align:center;
+}
+#result td.symbol{
+    text-align:left;
+    width: 40%;
+    line-height: 20px;
+   
+}
+#result a{
+    text-decoration:none;
+    color:#000;
+}
+
+/* 실시간 정보 */
+#recent1{ 
+    font-size:15px;
+    margin-bottom:10px;
+    margin-right:20px;
+    color:#646464;
+    font-weight:bold;
+    float:right;
+}
+
+/*현재가 전일대비 고가...*/
+#recent2{
+    width:900px;
+    border:1px solid #333;
+    font-size:15px;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+.nowQuote{ 
+    font-size: 18pt;
+    font-weight:bold;
+     text-align:center;
+}
+.nowQuoteSub{
+    text-align:center;
+}

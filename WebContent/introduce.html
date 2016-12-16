@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="euc-kr">
+<title>vvip-homepage</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/introduce.css">
+</head>
+<body>
+	<!-- 떠다니는 메뉴 -->
+	<div id="floatdiv">
+		<ul>
+			<li><a href="introduce.html">사이트소개</a></li>
+			<li><a href="ItemRecommend?type=1">종목추천</a></li>
+			<li><a href="indicator.html">지표설명</a></li>
+			<li><a href="pattern.html">캔들차트설명</a></li>
+			<li><a href="aboutUS.html">About US</a></li>
+			<li style="font-weight: bold"><a href="#">▲TOP</a></li>
+		</ul>
+	</div>
+
+	<div id="wrap">
+		<header>
+			<!-- 로고 들어갈 곳 -->
+			<div id="logo">
+				<a href="./"><img src="images/stock_vvip.png" alt="imsi_logo"
+					width="160" height="100" border="0"></a>
+			</div>
+
+			<!-- 메뉴 -->
+			<nav class=box>
+				<ul>
+					<li><a href="aboutUS.html">About US</a></li>
+					<li><a href="pattern.html">캔들차트설명</a></li>
+					<li><a href="indicator.html">지표설명</a></li>
+					<li><a href="ItemRecommend?type=1">종목추천</a></li>
+					<li><a href="introduce.html">사이트소개</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+
+			<!--검색창과 버튼-->
+			<div id="search">
+				<form action="Search">
+					<input type="hidden" name="type" value="1"> <select
+						name="market" class="selector">
+						<option value="ALL" selected>전체종목</option>
+						<option value="KOSPI">KOSPI</option>
+						<option value="KOSDAQ">KOSDAQ</option>
+						<option value="NYSE">NYSE</option>
+						<option value="NASDAQ">NASDAQ</option>
+						<option value="AMEX">AMEX</option>
+					</select> <span class="search_window"> <input type="text" size=50
+						name=search id="searchInput" class="input_text">
+					</span> <input type="submit" name="확인버튼" value="검색" class="submit_button">
+				</form>
+			</div>
+		</header>
+		<div class="clear"></div>
+		<div id="introduce">
+			<div class="welcome">사이트 소개</div>
+			<br>
+			<h1>캔들차트</h1>
+			<hr>
+			<h3>캔들 차트에서 나타나는 패턴에 대한 설명을 제공하는 페이지 입니다. 차트 패턴에 대한 예시와 추세 등을
+				알려줍니다.</h3>
+
+			<h1>지표</h1>
+			<hr>
+			<h3>지표는 캔들차트에서 나타나는 도구와 같습니다. 이 지표를 이용하여 차트가 나타내는 값들을 분석합니다. 지표에
+				대한 예시와 공식, 분석 방법들이 있습니다.</h3>
+
+			<h1>종목 추천</h1>
+			<hr>
+			<h3>
+				유전알고리즘을 이용하여 사용자에게 투자할 가치가 있는 종목을 추천해줍니다. 종목마다 최대 5년간 분석하여 모의투자시 가장
+				좋은 수익률을 보여주는 Slow Stoch와 MACD를 구합니다. 구해진 지표들을 이용해 모의 투자시 매도와 매수가
+				나타나는 시점을 알려줍니다.
+
+				<div align="center">
+					<br> <img src="images/analysis_stc.png" /> <br> Slow
+					Stoch의 %K 가 80을 상향 돌팔할 때 <b>매수</b>, 20을 하향 돌파할 때 <b>매도</b> 합니다. <br>
+				</div>
+				<br>
+				<div align="center">
+					<img src="images/analysis_macd.png" /><br> MACD의 Oscillator가
+					0을 상향 돌파할 때 <b>매수</b>, 0을 하향 돌파할 때 <b>매도</b> 합니다.
+				</div>
+			</h3>
+			<h1>모바일</h1>
+			<hr>
+			<h3>사이트가 제공하는 서비스는 안드로이드와 아이폰에서 동일하게 제공 받을 수 있습니다.</h3>
+		</div>
+		<footer>
+			<hr>
+			<div id=copy>
+				<img style="width: 90%; height: 4%;" src="images/footer.png" />
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

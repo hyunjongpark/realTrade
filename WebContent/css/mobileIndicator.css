@@ -1,0 +1,99 @@
+@CHARSET "EUC-KR";
+
+
+#indicator {
+	font-size: 14pt;
+	border: 4px solid #424242;
+	border-radius: 7px;
+	box-shadow: 2px 3px 7px #424242;
+	background-color: #FFFFFF;
+	margin: 4% 0 0 0;
+	padding : 20px;
+	color: #111;
+	min-width: 500px;
+}
+
+#indicator a {
+	text-decoration: none;
+	color: black;
+}
+
+#indicator a:hover {
+	color: #3ca0ff;
+}
+
+
+#indicator table {
+	width : 100%;
+	border: 2px gray solid;
+	margin: 2% 0% 0% 0%;
+	border-collapse:collapse;
+}
+
+#indicator table th{
+	text-align : center;
+	color: #333333;
+	border: 2px gray solid;;
+	font-weight: bold;
+	font-size: 30pt;
+	padding : 15px;
+}
+
+#indicator table td{
+	text-align : center;
+	border: 2px gray solid;
+	font-size: 16pt;
+	padding : 10px;
+	width:20%;
+}
+
+#indicator li {
+	color: #7070F0;
+	font-size: 11pt;
+}
+
+#indicator .indicator_name {
+	color: maroon;
+	font-weight: bold;
+	font-size: 20pt;
+	line-height: 200%;
+}
+
+#indicator .indicator_fullName {
+	color: maroon;
+	font-size: 15pt;
+}
+
+#indicator .indicator_equation {
+	line-height : 100%;
+	font-weight : bold;
+	padding : 20px;
+	border: 2px maroon solid;
+	width : 90%;
+	vertical-align: middle;
+	margin : 20px auto 20px auto;
+}
+
+#indicator .indicator_equation img{
+	max-width: 90%;
+}
+
+
+#indicator .indicator_chartImage {
+	font-weight : bold;
+	padding : 20px;
+	width : 100%;
+	margin : 20px auto 20px auto;
+	text-align: center;
+}
+
+#indicator .indicator_chartImage img{
+	width : 90%;
+}
+
+#indicator .indicator_explain {
+	font-size : 11pt;
+	word-break:break-all;
+	background-color: #FFFFFF;
+	padding : 20px;
+}

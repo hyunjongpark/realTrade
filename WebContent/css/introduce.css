@@ -1,0 +1,60 @@
+@CHARSET "EUC-KR";
+
+#introduce {
+    font-size: 14pt;
+    border: 4px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 3px 7px gray;
+    background-color: #FFFFFF;
+    margin: 4% 0 0 0%;
+    padding: 20px;
+}
+
+#introduce h1{
+	font-size : 18pt;
+	line-height: 160%;
+	margin-top: 10px;
+}
+
+#introduce h2{
+	font-size : 18pt;
+}
+
+#introduce h3{
+	font-size : 14pt;
+	line-height: 160%;
+	font-weight: normal;
+}
+
+#introduce .impact1{
+	font-weight: bold;
+}
+
+#introduce .welcome {
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#introduce .greeting {
+	border : 2px solid #F0F0F0;;
+	padding : 20px;
+	margin-top : 50px ;
+	text-align: left;
+	font-size: 14pt;
+	line-height: 160%;
+	border-radius: 15px;
+	background: #F0F0F0;
+}
+
+#introduce a {
+	text-decoration: none;
+	color: black;
+}
+
+#introduce a:hover {
+	text-decoration: none;
+	color: red;
+	font-size : 9.5pt; 
+}

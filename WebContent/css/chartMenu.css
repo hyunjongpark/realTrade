@@ -1,0 +1,101 @@
+@CHARSET "EUC-KR";
+
+#controlMenu{    
+    width:1000px;    
+    height:35px;
+}
+
+#subControlMenu{
+	padding-top:3px;
+	padding-bottom:10px;
+	width:1000px;
+	height:30px;
+}
+
+.menuContainer {   /*캔들차트 상위메뉴*/
+    display: inline-block;
+    font-size: 13px;    
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+    max-height: 30px;
+    background: #fff;    
+    cursor: pointer;
+    border: 1px solid #999;
+}
+.menuContainer:hover {
+    border: 1px solid #111;
+}
+
+.btnContainer {   /*캔들차트 상위메뉴*/
+    display: inline-block;
+    font-size: 13px;    
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+    max-height: 30px;
+    background: #fff;    
+    cursor: pointer;
+    
+    border: 1px solid #999;
+}
+.btnContainer:hover {
+    border: 1px solid #111;
+}
+
+
+/* 서브 메뉴 컨테이너 스타일 지정*/
+#subContainer1 {    
+	display: inline-block;
+    font-size: 10pt;    
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    background: #fff;
+    line-height:30px;
+    position:absolute;    
+    padding-left:10px;
+    border: 1px solid #999;
+    //visibility: hidden;
+}
+
+#subContainer2 {    
+	display: inline-block;
+    font-size: 10pt;    
+    width: 650px;
+    height: 30px;
+    text-align: left;
+    background: #fff;
+    line-height:30px;
+    position:absolute;    
+    padding-left:10px;
+    border: 1px solid #999;
+    visibility: hidden;
+}
+
+#subContainer3 {    
+	display: inline-block;
+    font-size: 10pt;    
+    width: 300px;
+    height: 30px;    
+    text-align: left;
+    background: #fff;
+    line-height:30px;
+    position:absolute;    
+    padding-left:10px;
+    border: 1px solid #999;
+    visibility: hidden;
+}
+
+#result {
+    position:relative;
+    left:50%;
+    margin-left:-350px;
+    margin-bottom:20px;
+    margin-top:10px;
+    font-size: 12pt;
+    border: :1px solid #333;
+    
+}

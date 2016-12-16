@@ -1,0 +1,50 @@
+@CHARSET "EUC-KR";
+
+#chMenu{  /* 회사이름 , 주가 , 차트 메뉴*/
+    font-family:"맑은 고딕";
+    font-size:13pt;
+    width: 900px;
+    height:70px;
+    float:left;
+    margin: 4% 0 0 0;
+}
+#chMenu ul{
+    list-style: none;
+    color:#fff;
+}
+#chMenu ul li{
+    padding:7px;
+    background-color: #3CB4FF;
+    border-right:1px solid #fff;
+    //box-shadow:0px 5px 0px #aadbFF;
+   
+}
+.leftMenu{ /* 회사이름 */
+    float:left;
+    display:block;
+    font-weight:bold;
+}
+
+.right2Menu{ /* 차트 */
+   float:right;
+   display:inline-block;
+    font-weight:bold;
+}
+
+.right1Menu{ /* 차트 */
+   float:right;
+   display:inline-block;
+   margin-right:35px;   
+   font-weight:bold;
+   color:#fff;
+}
+
+#chMenu a{
+    text-decoration: none;
+    color:#fff;
+}
+#chMenu a:hover{
+      color:#fff;
+      font-weight: bold;
+      border-bottom: 4px solid #cbff75;
+}

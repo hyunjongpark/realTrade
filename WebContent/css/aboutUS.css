@@ -1,0 +1,92 @@
+@CHARSET "EUC-KR";
+
+#aboutUS {
+	font-size: 14pt;
+	border: 4px solid #424242;
+	border-radius: 7px;
+	box-shadow: 2px 3px 7px #424242;
+	background-color: #FFFFFF;
+	margin: 4% 0 0 0;
+	padding : 20px;
+	color: #111;
+}
+
+#aboutUS table {
+	width : 855px;
+	border: 2px gray solid;
+	margin: 0% 0% 0% 0%;
+	border-collapse:collapse;
+}
+
+#aboutUS table th{
+	text-align : center;
+	color: #333333;
+	border: 2px gray solid;;
+	font-weight: bold;
+	font-size: 30pt;
+	padding : 15px;
+}
+
+#aboutUS table td{
+	text-align : center;
+	border: 2px gray solid;
+	font-size: 16pt;
+	padding : 10px;
+}
+
+#aboutUS .impact1{
+	font-weight: bold;
+}
+
+#aboutUS .welcome {
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	line-height: 200%;
+	color: #333333;
+}
+
+#aboutUS .greeting {
+	border : 2px solid #F0F0F0;;
+	padding : 20px;
+	margin-top : 50px ;
+	text-align: left;
+	font-size: 14pt;
+	line-height: 160%;
+	border-radius: 15px;
+	background: #F0F0F0;
+}
+
+#aboutUS .contact {
+	padding-top : 20px;
+}
+
+#aboutUS a {
+	text-decoration: none;
+    color:#424242;
+}
+
+#aboutUS a:hover {
+    color:#F394BE;
+}
+
+#aboutUS h1{
+	font-size : 18pt;
+	line-height: 160%;
+	margin-top: 10px;
+}
+
+#aboutUS h2{
+	font-size : 18pt;
+}
+
+#aboutUS h3{
+	font-size : 14pt;
+	line-height: 160%;
+	font-weight: normal;
+}
+
+#aboutUS .impact1{
+	font-weight: bold;
+}
+

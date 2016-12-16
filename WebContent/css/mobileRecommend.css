@@ -1,0 +1,55 @@
+@CHARSET "EUC-KR";
+#recommend {
+    font-size:18pt;
+    margin-top:20px;
+}
+
+#buy {
+    margin-top:10px;
+    display:block;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    font-size:18pt;
+    height:50px;
+    line-height:50px;
+   color:black;
+}
+
+#sell {
+    display:block;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    font-size:18pt;
+    height:50px;
+    line-height:50px;
+   color:black;
+}
+
+#item{
+    font-family:"¸¼Àº °íµñ";
+    font-size:18pt;
+    border: 1px solid #c8c8c8;
+    color:black;
+    width:100%;
+}
+
+
+#item th{
+    border-bottom: 1px solid #c8c8c8;
+    height: 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#item tr{
+   
+}
+#item td{
+    text-align:right;
+    padding:5px;
+    width:100px;
+}
+
+#item a{
+    text-decoration:none;
+    color:#000;
+}
