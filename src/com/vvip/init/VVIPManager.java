@@ -31,7 +31,7 @@ public class VVIPManager {
 	// org.hsqldb.util.DatabaseManager -user sa -url
 	// jdbc:hsqldb:/home/phj/vvip/vvip_0615/db/vvip
 
-	public final static String VVIP_PATH = "C:/vvip/vvip_0615";
+	public final static String VVIP_PATH = "C:/Users/phj/vvip/realTrade";
 	// public final static String VVIP_PATH = "/home/phj/vvip/vvip_0615";
 
 	public final static double checkMinusSellProfit = -10000;
@@ -56,6 +56,7 @@ public class VVIPManager {
 	private final static int CASE_TEST_REAL_TIME_TRADE = 8;
 	private final static int CASE_50_TRADE = 9;
 	private final static int CASE_CHART = 10;
+	private final static int CASE_PROFIT = 11;
 
 	private final static int selectedMode = CASE_RunMode;
 
@@ -79,6 +80,11 @@ public class VVIPManager {
 				}
 
 			}
+			break;
+		}
+		case CASE_PROFIT: {
+			CalcutatorProfitFromTxt ttt = new CalcutatorProfitFromTxt();
+			ttt.run();
 			break;
 		}
 		case CASE_RunMode: {

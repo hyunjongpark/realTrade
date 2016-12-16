@@ -15,7 +15,6 @@ import com.vvip.quote.TradeDate;
 import com.vvip.trade.TradeType;
 import com.vvip.util.ChartPattern;
 import com.vvip.util.DatabaseManager;
-import com.vvip.util.TechnicalAnalysis;
 
 public class SocketCommunicator implements Runnable {
     private Thread instance;
@@ -383,31 +382,30 @@ public class SocketCommunicator implements Runnable {
                 }
 
                 double diff = currentVolumn - tradeSymbol.preRealTimeVolumn;
+    			double diffValue = -1;
+    			int diffS = -1;
+    			double diffProfit = -1;
+    			int preDiffS = (tradeSymbol.hValue * 60 * 60) + (tradeSymbol.mValue * 60) + tradeSymbol.sValue;
+    			int nowDiffS = (mHour * 60 * 60) + (mMinute * 60) + mSecond;
+    			diffS = nowDiffS - preDiffS;
+    			diffValue = diff / diffS;
+    			diffProfit = (currentProfit - tradeSymbol.preProfit) / diffS / diffValue * 100000;
 
-                ArrayList<Boolean> checkArray = new ArrayList<Boolean>();
-                checkArray.add(tradeSymbol.isBuyOrder == false);
-                checkArray.add(tradeSymbol.preRealTimeVolumn != 0);
-                checkArray.add(tradeSymbol.preDiffVolumn != 0);
-                checkArray.add(tradeSymbol.preDiffVolumn < diff);
-                checkArray.add(tradeSymbol.isDiffVolumnZero == false);
-                checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
-                checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-                checkArray.add(tradeSymbol.up >= 3);
-                checkArray.add(tradeSymbol.isMinus == false);
-                checkArray.add(1 < currentProfit && currentProfit < 6);
-                checkArray.add((currentPrice * diff) / 10000000 > 10);
-
-                double diffValue = -1;
-                int diffS = -1;
-                double diffProfit = -1;
-                int preDiffS = (tradeSymbol.hValue * 60 * 60) + (tradeSymbol.mValue * 60) + tradeSymbol.sValue;
-                int nowDiffS = (mHour * 60 * 60) + (mMinute * 60) + mSecond;
-                diffS = nowDiffS - preDiffS;
-                diffValue = diff / diffS;
-                checkArray.add(100 < diffValue);
-                diffProfit = (currentProfit - tradeSymbol.preProfit) / diffS / diffValue * 100000;
-                checkArray.add(diffProfit >= 1);
-                checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
+    			ArrayList<Boolean> checkArray = new ArrayList<Boolean>();
+    			checkArray.add(tradeSymbol.isBuyOrder == false);
+    			checkArray.add(tradeSymbol.preRealTimeVolumn != 0);
+    			checkArray.add(tradeSymbol.preDiffVolumn != 0);
+    			checkArray.add(tradeSymbol.preDiffVolumn < diff);
+    			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
+    			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
+    			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
+    			checkArray.add(tradeSymbol.up >= 3);
+    			checkArray.add(tradeSymbol.isMinus == false);
+    			checkArray.add(1 < currentProfit && currentProfit < 6);
+    			checkArray.add((currentPrice * diff) / 10000000 > 10);
+    			checkArray.add(100 < diffValue);
+    			checkArray.add(diffProfit >= 1);
+    			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
 
                 boolean isBuyStatus = true;
                 for (int i = 0; i < checkArray.size(); i++) {
