@@ -143,10 +143,9 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
 			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
 			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-			checkArray.add(tradeSymbol.up >= 3);
+			checkArray.add(3 <= tradeSymbol.up && tradeSymbol.up <= 5);
 			checkArray.add(tradeSymbol.isMinus == false);
-			checkArray.add(1 < currentProfit && currentProfit < 6);
-			checkArray.add((currentPrice * diff) / 10000000 > 10);
+			checkArray.add(2 < currentProfit && currentProfit < 6);
 			checkArray.add(100 < diffValue);
 			checkArray.add(diffProfit >= 1);
 			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
@@ -161,8 +160,8 @@ public class CalcutatorProfitFromTxt {
 			if (isBuyStatus) {
 				tradeSymbol.isBuyOrder = true;
 				buyProfit = currentProfit;
-				buyData = data.get(0) + " price: " + currentPrice + " profit: " + currentProfit + " volumn: " + currentVolumn + " diff: " + (currentPrice * diff) / 10000000 + " diffValue: "
-						+ diffValue + " diffProfit: " + diffProfit;
+				buyData = data.get(0) + " price: " + currentPrice + " profit: " + currentProfit + " volumn: " + currentVolumn + " up: " + tradeSymbol.up + " currentProfit: "
+						+ currentProfit + " diff: " + (currentPrice * diff) / 10000000 +" diffValue: " + diffValue+ " diffProfit: " + diffProfit;
 			}
 			tradeSymbol.preDiffVolumn = diff;
 			tradeSymbol.preRealTimePrice = currentPrice;

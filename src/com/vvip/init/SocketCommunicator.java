@@ -399,10 +399,9 @@ public class SocketCommunicator implements Runnable {
     			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
     			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
     			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-    			checkArray.add(tradeSymbol.up >= 3);
+    			checkArray.add(3 <= tradeSymbol.up && tradeSymbol.up <= 5);
     			checkArray.add(tradeSymbol.isMinus == false);
-    			checkArray.add(1 < currentProfit && currentProfit < 6);
-    			checkArray.add((currentPrice * diff) / 10000000 > 10);
+    			checkArray.add(2 < currentProfit && currentProfit < 6);
     			checkArray.add(100 < diffValue);
     			checkArray.add(diffProfit >= 1);
     			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
