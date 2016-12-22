@@ -10,7 +10,7 @@ public class CalcutatorProfitFromTxt {
 	double sumProfit = 0.0;
 	double nS = 0;
 	double nF = 0;
-	double sellProfit = 0.8;
+	double totalProfit = 0;
 
 	class TodayRealTimeSymbolType {
 		String symbol = "";
@@ -37,7 +37,7 @@ public class CalcutatorProfitFromTxt {
 	}
 
 	public void run() {
-		String folderPath = "C:/Users/phj/vvip/realTrade/past_buy/data";
+		String folderPath = "C:/Users/phj/vvip/realTrade/past_buy/data/201612";
 		final File folder = new File(folderPath);
 		ArrayList<String> paths = listFilesForFolder(folder);
 		for (String path : paths) {
@@ -80,7 +80,7 @@ public class CalcutatorProfitFromTxt {
 				System.exit(1);
 			}
 		}
-		System.out.println("success: " + nS + " fail: " + nF);
+		System.out.println("success: " + nS + " fail: " + nF + " totalProfit: " + totalProfit);
 	}
 
 	private void trading(String symbol, String readPath, ArrayList<ArrayList<String>> dataList) {
@@ -90,6 +90,10 @@ public class CalcutatorProfitFromTxt {
 		double maxProfitAfterBuy = 0.0;
 		double minProfitAfterBuy = 0.0;
 		boolean isSucces11 = false;
+
+		int upCount = 0;
+		boolean isDown = false;
+		double maxProfit = 0;
 		for (int t = 0; t < dataList.size(); t++) {
 			ArrayList<String> data = dataList.get(t);
 			int mHour = 0;
@@ -110,7 +114,7 @@ public class CalcutatorProfitFromTxt {
 				maxProfitAfterBuy = Math.max(maxProfitAfterBuy, currentProfit);
 				minProfitAfterBuy = Math.min(minProfitAfterBuy, currentProfit);
 			}
-			if (buyProfit > 0 && currentProfit >= buyProfit + sellProfit) {
+			if (buyProfit > 0 && currentProfit >= buyProfit + VVIPManager.sellPercentByBuyPrice) {
 				isSucces11 = true;
 			}
 			if (tradeSymbol.preRealTimePrice < currentPrice) {
@@ -143,12 +147,13 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
 			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
 			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-			checkArray.add(3 <= tradeSymbol.up && tradeSymbol.up <= 5);
 			checkArray.add(tradeSymbol.isMinus == false);
+			checkArray.add(((currentPrice * diff) / 10000000) > 1); // 이 조건이 있으면 많이 오른 조건으로 매수한다
+			checkArray.add(3 <= tradeSymbol.up && tradeSymbol.up <= 5);
 			checkArray.add(2 < currentProfit && currentProfit < 6);
 			checkArray.add(100 < diffValue);
 			checkArray.add(diffProfit >= 1);
-			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
+//			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
 
 			boolean isBuyStatus = true;
 			for (int i = 0; i < checkArray.size(); i++) {
@@ -158,11 +163,24 @@ public class CalcutatorProfitFromTxt {
 				}
 			}
 			if (isBuyStatus) {
+				isDown = false;
 				tradeSymbol.isBuyOrder = true;
 				buyProfit = currentProfit;
-				buyData = data.get(0) + " price: " + currentPrice + " profit: " + currentProfit + " volumn: " + currentVolumn + " up: " + tradeSymbol.up + " currentProfit: "
-						+ currentProfit + " diff: " + (currentPrice * diff) / 10000000 +" diffValue: " + diffValue+ " diffProfit: " + diffProfit;
+				buyData = data.get(0) + " price: " + currentPrice + " profit: " + currentProfit + " volumn: " + currentVolumn + " up: " + tradeSymbol.up + " currentProfit: " + currentProfit
+						+ " diff: " + (currentPrice * diff) / 10000000 + " diffValue: " + diffValue + " diffProfit: " + diffProfit;
 			}
+
+			if ( tradeSymbol.isBuyOrder && maxProfit <= currentProfit && isDown == false) {
+				upCount++;
+				maxProfit = currentProfit;
+				System.out.println("up:" + symbol + " maxProfit: " + (maxProfit - buyProfit));
+			} else if (tradeSymbol.isBuyOrder == true && isDown == false){
+				maxProfit = currentProfit;
+				System.out.println("down:" + symbol + " maxProfit: " + (maxProfit - buyProfit));
+				isDown = true;
+			}
+			
+
 			tradeSymbol.preDiffVolumn = diff;
 			tradeSymbol.preRealTimePrice = currentPrice;
 			tradeSymbol.preRealTimeVolumn = currentVolumn;
@@ -182,33 +200,24 @@ public class CalcutatorProfitFromTxt {
 			tradeSymbol.preProfit = currentProfit;
 		}
 		if (buyProfit != 0) {
+			totalProfit += (maxProfit - buyProfit);
 			if (isSucces11) {
 				nS++;
 				System.out.println("success: " + readPath + " " + buyData);
 				// System.out.println("min: " + minProfitAfterBuy + " max: " +
 				// String.format("%.2f", (maxProfitAfterBuy - buyProfit)) + "
-				// close: "
-				// + (Double.parseDouble(dataList.get(dataList.size() -
-				// 1).get(2)) - buyProfit));
+				// close: " + (Double.parseDouble(dataList.get(dataList.size()
+				// -1).get(2)) - buyProfit));
 			} else {
 				nF++;
+				
 				System.out.println("fail: " + readPath + " " + buyData);
-				// System.out.println("---------- min: " + minProfitAfterBuy + "
-				// max: " + (maxProfitAfterBuy - buyProfit) + " close: " +
-				// (Double.parseDouble(dataList.get(dataList.size() - 1).get(2))
-				// -
-				// buyProfit));
-				// for (int i = 0; i < quoteList.getSize(); i++) {
-				// if (quoteList.getQuote(i).getTradeDate().toInt() > date) {
-				// if (getPriceOfPercentage(buyPrice, sellProfit) <
-				// quoteList.getQuote(i).getHigh()) {
-				// System.out.println(" fail: " +
-				// quoteList.getQuote(i).getTradeDate().toInt() + " " +
-				// quoteList.getQuote(i).getHigh());
-				// }
-				// }
-				// }
+				// System.out.println("min: " + minProfitAfterBuy + " max: " +
+				// String.format("%.2f", (maxProfitAfterBuy - buyProfit)) + "
+				// close: " + (Double.parseDouble(dataList.get(dataList.size()
+				// -1).get(2)) - buyProfit));
 			}
+			System.out.println(totalProfit + " upCount: " + upCount + " maxProfit: " + (maxProfit - buyProfit - 0.3) );
 			sumProfit -= (Double.parseDouble(dataList.get(dataList.size() - 1).get(2)) - buyProfit);
 		}
 	}

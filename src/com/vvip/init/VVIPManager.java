@@ -39,8 +39,8 @@ public class VVIPManager {
 	public final static double checkProfit = 0;
 
 	public static double rangeStartPrice = 2000;
-	public static double rangeEndPrice = 200000;
-	public static double buyPrice = 200000;
+	public static double rangeEndPrice = 30000;
+	public static double buyPrice = 30000;
 	public static double sellPercentByBuyPrice = 1.3;
 
 	public static int startTradeDay = 20150101;
