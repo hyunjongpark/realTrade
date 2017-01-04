@@ -58,7 +58,7 @@ public class VVIPManager {
 	private final static int CASE_CHART = 10;
 	private final static int CASE_PROFIT = 11;
 
-	private final static int selectedMode = CASE_RunMode;
+	private final static int selectedMode = CASE_PROFIT;
 
 	public static void main(String[] args) {
 		switch (selectedMode) {
