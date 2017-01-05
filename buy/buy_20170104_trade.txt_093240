@@ -1,0 +1,1299 @@
+093240 volume: 545754 "P@Belt-hold##P@Engulfing Pattern##"
+check 9:0:4 093240 price: 6290.0 profit: 0.0 volumn: 500 diff: 500.0 traffic: 0.3145 up:0 down: 0 [true, false, false, true, true, true, true, false, false, false, true, false, false]
+
+check 9:0:40 093240 price: 6290.0 profit: 0.0 volumn: 2340 diff: 1840.0 traffic: 1.15736 up:0 down: 0 [true, true, true, true, true, false, true, false, false, false, false, false, false]
+
+check 9:1:15 093240 price: 6280.0 profit: -0.159 volumn: 3798 diff: 1458.0 traffic: 0.915624 up:0 down: 1 [true, true, true, false, true, false, true, false, false, false, false, false, false]
+
+check 9:1:50 093240 price: 6290.0 profit: 0.0 volumn: 4248 diff: 450.0 traffic: 0.28305 up:1 down: 0 [true, true, true, false, true, false, false, false, false, false, true, false, false]
+
+check 9:2:25 093240 price: 6280.0 profit: -0.159 volumn: 4775 diff: 527.0 traffic: 0.330956 up:0 down: 1 [true, true, true, true, true, false, false, false, false, false, false, true, false]
+
+check 9:3:0 093240 price: 6280.0 profit: -0.159 volumn: 6625 diff: 1850.0 traffic: 1.1618 up:0 down: 0 [true, true, true, true, true, false, false, false, false, false, false, true, false]
+
+check 9:3:36 093240 price: 6280.0 profit: -0.159 volumn: 6625 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, true, false, false, false, false, false, false, true, false]
+
+check 9:4:11 093240 price: 6270.0 profit: -0.318 volumn: 7176 diff: 551.0 traffic: 0.345477 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:4:46 093240 price: 6270.0 profit: -0.318 volumn: 7226 diff: 50.0 traffic: 0.03135 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:5:21 093240 price: 6270.0 profit: -0.318 volumn: 7626 diff: 400.0 traffic: 0.2508 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:5:56 093240 price: 6260.0 profit: -0.477 volumn: 7875 diff: 249.0 traffic: 0.155874 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:6:31 093240 price: 6260.0 profit: -0.477 volumn: 8326 diff: 451.0 traffic: 0.282326 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:7:7 093240 price: 6260.0 profit: -0.477 volumn: 9005 diff: 679.0 traffic: 0.425054 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:7:42 093240 price: 6260.0 profit: -0.477 volumn: 9005 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:8:17 093240 price: 6260.0 profit: -0.477 volumn: 9083 diff: 78.0 traffic: 0.048828 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:8:52 093240 price: 6260.0 profit: -0.477 volumn: 9170 diff: 87.0 traffic: 0.054462 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:9:27 093240 price: 6270.0 profit: -0.318 volumn: 9171 diff: 1.0 traffic: 6.27E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 9:10:3 093240 price: 6270.0 profit: -0.318 volumn: 14122 diff: 4951.0 traffic: 3.104277 up:0 down: 0 [true, true, true, true, false, false, false, false, false, true, false, true, true]
+
+check 9:10:38 093240 price: 6250.0 profit: -0.636 volumn: 32216 diff: 18094.0 traffic: 11.30875 up:0 down: 1 [true, true, true, true, false, false, false, false, false, true, false, true, true]
+
+check 9:11:13 093240 price: 6270.0 profit: -0.318 volumn: 34294 diff: 2078.0 traffic: 1.302906 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 9:11:48 093240 price: 6250.0 profit: -0.636 volumn: 34400 diff: 106.0 traffic: 0.06625 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:12:23 093240 price: 6250.0 profit: -0.636 volumn: 34408 diff: 8.0 traffic: 0.005 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:12:58 093240 price: 6260.0 profit: -0.477 volumn: 34418 diff: 10.0 traffic: 0.00626 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, true, false]
+
+check 9:13:34 093240 price: 6260.0 profit: -0.477 volumn: 34418 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:14:9 093240 price: 6260.0 profit: -0.477 volumn: 34418 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:14:49 093240 price: 6250.0 profit: -0.636 volumn: 35633 diff: 1215.0 traffic: 0.759375 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:15:24 093240 price: 6250.0 profit: -0.636 volumn: 35633 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:15:59 093240 price: 6260.0 profit: -0.477 volumn: 37633 diff: 2000.0 traffic: 1.252 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 9:16:34 093240 price: 6270.0 profit: -0.318 volumn: 37733 diff: 100.0 traffic: 0.0627 up:2 down: 0 [true, true, true, false, false, false, false, true, false, false, true, true, false]
+
+check 9:17:10 093240 price: 6270.0 profit: -0.318 volumn: 37733 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:17:45 093240 price: 6270.0 profit: -0.318 volumn: 38199 diff: 466.0 traffic: 0.292182 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:18:20 093240 price: 6270.0 profit: -0.318 volumn: 38803 diff: 604.0 traffic: 0.378708 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:18:55 093240 price: 6280.0 profit: -0.159 volumn: 39738 diff: 935.0 traffic: 0.58718 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, true, false]
+
+check 9:19:30 093240 price: 6290.0 profit: 0.0 volumn: 40747 diff: 1009.0 traffic: 0.634661 up:2 down: 0 [true, true, true, true, false, false, false, true, false, false, true, true, false]
+
+check 9:20:6 093240 price: 6290.0 profit: 0.0 volumn: 40778 diff: 31.0 traffic: 0.019499 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:20:41 093240 price: 6290.0 profit: 0.0 volumn: 40778 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:21:16 093240 price: 6290.0 profit: 0.0 volumn: 40778 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:21:51 093240 price: 6270.0 profit: -0.318 volumn: 40840 diff: 62.0 traffic: 0.038874 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:22:26 093240 price: 6290.0 profit: 0.0 volumn: 40841 diff: 1.0 traffic: 6.29E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 9:23:1 093240 price: 6290.0 profit: 0.0 volumn: 40842 diff: 1.0 traffic: 6.29E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:23:37 093240 price: 6280.0 profit: -0.159 volumn: 40843 diff: 1.0 traffic: 6.28E-4 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:24:12 093240 price: 6280.0 profit: -0.159 volumn: 41179 diff: 336.0 traffic: 0.211008 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:24:47 093240 price: 6280.0 profit: -0.159 volumn: 41294 diff: 115.0 traffic: 0.07222 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:25:22 093240 price: 6280.0 profit: -0.159 volumn: 41299 diff: 5.0 traffic: 0.00314 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:25:57 093240 price: 6280.0 profit: -0.159 volumn: 42414 diff: 1115.0 traffic: 0.70022 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:26:32 093240 price: 6280.0 profit: -0.159 volumn: 42414 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:27:8 093240 price: 6270.0 profit: -0.318 volumn: 42455 diff: 41.0 traffic: 0.025707 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:27:43 093240 price: 6260.0 profit: -0.477 volumn: 43384 diff: 929.0 traffic: 0.581554 up:0 down: 2 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:28:18 093240 price: 6260.0 profit: -0.477 volumn: 43774 diff: 390.0 traffic: 0.24414 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:28:53 093240 price: 6260.0 profit: -0.477 volumn: 44611 diff: 837.0 traffic: 0.523962 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:29:28 093240 price: 6260.0 profit: -0.477 volumn: 45165 diff: 554.0 traffic: 0.346804 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:30:3 093240 price: 6250.0 profit: -0.636 volumn: 45665 diff: 500.0 traffic: 0.3125 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:30:39 093240 price: 6250.0 profit: -0.636 volumn: 45795 diff: 130.0 traffic: 0.08125 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:31:14 093240 price: 6250.0 profit: -0.636 volumn: 45795 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:31:49 093240 price: 6250.0 profit: -0.636 volumn: 45844 diff: 49.0 traffic: 0.030625 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:32:24 093240 price: 6250.0 profit: -0.636 volumn: 45949 diff: 105.0 traffic: 0.065625 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:32:59 093240 price: 6260.0 profit: -0.477 volumn: 46147 diff: 198.0 traffic: 0.123948 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, true, false]
+
+check 9:33:34 093240 price: 6260.0 profit: -0.477 volumn: 46175 diff: 28.0 traffic: 0.017528 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:34:9 093240 price: 6260.0 profit: -0.477 volumn: 46251 diff: 76.0 traffic: 0.047576 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:34:45 093240 price: 6250.0 profit: -0.636 volumn: 47105 diff: 854.0 traffic: 0.53375 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:35:20 093240 price: 6250.0 profit: -0.636 volumn: 47408 diff: 303.0 traffic: 0.189375 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:35:55 093240 price: 6250.0 profit: -0.636 volumn: 47408 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:36:30 093240 price: 6250.0 profit: -0.636 volumn: 48231 diff: 823.0 traffic: 0.514375 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:37:5 093240 price: 6250.0 profit: -0.636 volumn: 48802 diff: 571.0 traffic: 0.356875 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:37:40 093240 price: 6250.0 profit: -0.636 volumn: 49996 diff: 1194.0 traffic: 0.74625 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:38:16 093240 price: 6240.0 profit: -0.795 volumn: 51233 diff: 1237.0 traffic: 0.771888 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:38:51 093240 price: 6230.0 profit: -0.954 volumn: 54770 diff: 3537.0 traffic: 2.203551 up:0 down: 2 [true, true, true, true, false, false, false, false, false, true, false, true, true]
+
+check 9:39:26 093240 price: 6230.0 profit: -0.954 volumn: 54770 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:40:1 093240 price: 6230.0 profit: -0.954 volumn: 54770 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:40:36 093240 price: 6230.0 profit: -0.954 volumn: 55060 diff: 290.0 traffic: 0.18067 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:41:11 093240 price: 6230.0 profit: -0.954 volumn: 55231 diff: 171.0 traffic: 0.106533 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:41:47 093240 price: 6240.0 profit: -0.795 volumn: 56231 diff: 1000.0 traffic: 0.624 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, true, false]
+
+check 9:42:22 093240 price: 6240.0 profit: -0.795 volumn: 57181 diff: 950.0 traffic: 0.5928 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:42:57 093240 price: 6230.0 profit: -0.954 volumn: 58142 diff: 961.0 traffic: 0.598703 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:43:32 093240 price: 6230.0 profit: -0.954 volumn: 58142 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:44:7 093240 price: 6230.0 profit: -0.954 volumn: 58142 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:44:42 093240 price: 6230.0 profit: -0.954 volumn: 59560 diff: 1418.0 traffic: 0.883414 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:45:18 093240 price: 6230.0 profit: -0.954 volumn: 59657 diff: 97.0 traffic: 0.060431 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:45:53 093240 price: 6230.0 profit: -0.954 volumn: 59657 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:46:28 093240 price: 6230.0 profit: -0.954 volumn: 60157 diff: 500.0 traffic: 0.3115 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:47:3 093240 price: 6230.0 profit: -0.954 volumn: 60384 diff: 227.0 traffic: 0.141421 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:47:38 093240 price: 6230.0 profit: -0.954 volumn: 60457 diff: 73.0 traffic: 0.045479 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:48:13 093240 price: 6230.0 profit: -0.954 volumn: 60457 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:48:49 093240 price: 6230.0 profit: -0.954 volumn: 60457 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:49:24 093240 price: 6240.0 profit: -0.795 volumn: 60467 diff: 10.0 traffic: 0.00624 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 9:49:59 093240 price: 6240.0 profit: -0.795 volumn: 60488 diff: 21.0 traffic: 0.013104 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:50:34 093240 price: 6240.0 profit: -0.795 volumn: 60488 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:51:9 093240 price: 6240.0 profit: -0.795 volumn: 60759 diff: 271.0 traffic: 0.169104 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:51:45 093240 price: 6240.0 profit: -0.795 volumn: 61993 diff: 1234.0 traffic: 0.770016 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:52:20 093240 price: 6240.0 profit: -0.795 volumn: 62099 diff: 106.0 traffic: 0.066144 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:52:55 093240 price: 6240.0 profit: -0.795 volumn: 62149 diff: 50.0 traffic: 0.0312 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:53:30 093240 price: 6240.0 profit: -0.795 volumn: 62149 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:54:5 093240 price: 6240.0 profit: -0.795 volumn: 62149 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:54:40 093240 price: 6240.0 profit: -0.795 volumn: 62149 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:55:16 093240 price: 6240.0 profit: -0.795 volumn: 62149 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 9:55:51 093240 price: 6240.0 profit: -0.795 volumn: 62809 diff: 660.0 traffic: 0.41184 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:56:26 093240 price: 6240.0 profit: -0.795 volumn: 62809 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:57:1 093240 price: 6240.0 profit: -0.795 volumn: 63335 diff: 526.0 traffic: 0.328224 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:57:36 093240 price: 6240.0 profit: -0.795 volumn: 63335 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:58:11 093240 price: 6240.0 profit: -0.795 volumn: 63490 diff: 155.0 traffic: 0.09672 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 9:58:47 093240 price: 6240.0 profit: -0.795 volumn: 63600 diff: 110.0 traffic: 0.06864 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 9:59:22 093240 price: 6240.0 profit: -0.795 volumn: 63896 diff: 296.0 traffic: 0.184704 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 9:59:57 093240 price: 6240.0 profit: -0.795 volumn: 63896 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:0:32 093240 price: 6240.0 profit: -0.795 volumn: 63897 diff: 1.0 traffic: 6.24E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:1:7 093240 price: 6240.0 profit: -0.795 volumn: 65230 diff: 1333.0 traffic: 0.831792 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:1:42 093240 price: 6230.0 profit: -0.954 volumn: 65371 diff: 141.0 traffic: 0.087843 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:2:18 093240 price: 6230.0 profit: -0.954 volumn: 66124 diff: 753.0 traffic: 0.469119 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:2:53 093240 price: 6240.0 profit: -0.795 volumn: 66430 diff: 306.0 traffic: 0.190944 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 10:3:28 093240 price: 6240.0 profit: -0.795 volumn: 66430 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:4:3 093240 price: 6240.0 profit: -0.795 volumn: 66430 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:4:38 093240 price: 6240.0 profit: -0.795 volumn: 66460 diff: 30.0 traffic: 0.01872 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:5:13 093240 price: 6240.0 profit: -0.795 volumn: 66460 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:5:49 093240 price: 6250.0 profit: -0.636 volumn: 66483 diff: 23.0 traffic: 0.014375 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:6:24 093240 price: 6250.0 profit: -0.636 volumn: 66485 diff: 2.0 traffic: 0.00125 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:6:59 093240 price: 6230.0 profit: -0.954 volumn: 66687 diff: 202.0 traffic: 0.125846 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:7:34 093240 price: 6230.0 profit: -0.954 volumn: 66687 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:8:9 093240 price: 6230.0 profit: -0.954 volumn: 66687 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:8:44 093240 price: 6230.0 profit: -0.954 volumn: 66687 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:9:20 093240 price: 6230.0 profit: -0.954 volumn: 67185 diff: 498.0 traffic: 0.310254 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:9:55 093240 price: 6250.0 profit: -0.636 volumn: 67189 diff: 4.0 traffic: 0.0025 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 10:10:30 093240 price: 6250.0 profit: -0.636 volumn: 67189 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:11:5 093240 price: 6250.0 profit: -0.636 volumn: 70581 diff: 3392.0 traffic: 2.12 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, true]
+
+check 10:11:40 093240 price: 6250.0 profit: -0.636 volumn: 71138 diff: 557.0 traffic: 0.348125 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:12:16 093240 price: 6270.0 profit: -0.318 volumn: 71238 diff: 100.0 traffic: 0.0627 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 10:12:51 093240 price: 6270.0 profit: -0.318 volumn: 71238 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:13:26 093240 price: 6280.0 profit: -0.159 volumn: 71789 diff: 551.0 traffic: 0.346028 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:14:1 093240 price: 6280.0 profit: -0.159 volumn: 71789 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:14:36 093240 price: 6270.0 profit: -0.318 volumn: 71795 diff: 6.0 traffic: 0.003762 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:15:11 093240 price: 6280.0 profit: -0.159 volumn: 71801 diff: 6.0 traffic: 0.003768 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 10:15:47 093240 price: 6260.0 profit: -0.477 volumn: 71824 diff: 23.0 traffic: 0.014398 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:16:22 093240 price: 6260.0 profit: -0.477 volumn: 71824 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:16:57 093240 price: 6280.0 profit: -0.159 volumn: 72358 diff: 534.0 traffic: 0.335352 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:17:32 093240 price: 6280.0 profit: -0.159 volumn: 72358 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:18:7 093240 price: 6280.0 profit: -0.159 volumn: 72358 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:18:42 093240 price: 6260.0 profit: -0.477 volumn: 72359 diff: 1.0 traffic: 6.26E-4 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:19:18 093240 price: 6260.0 profit: -0.477 volumn: 72359 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:19:53 093240 price: 6280.0 profit: -0.159 volumn: 72363 diff: 4.0 traffic: 0.002512 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:20:28 093240 price: 6280.0 profit: -0.159 volumn: 72363 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:21:3 093240 price: 6280.0 profit: -0.159 volumn: 72363 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:21:38 093240 price: 6280.0 profit: -0.159 volumn: 72363 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:22:13 093240 price: 6280.0 profit: -0.159 volumn: 72366 diff: 3.0 traffic: 0.001884 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:22:49 093240 price: 6280.0 profit: -0.159 volumn: 72366 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:23:24 093240 price: 6280.0 profit: -0.159 volumn: 72366 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:23:59 093240 price: 6280.0 profit: -0.159 volumn: 72366 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:24:34 093240 price: 6240.0 profit: -0.795 volumn: 73866 diff: 1500.0 traffic: 0.936 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:25:9 093240 price: 6240.0 profit: -0.795 volumn: 73866 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:25:44 093240 price: 6240.0 profit: -0.795 volumn: 73866 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:26:20 093240 price: 6240.0 profit: -0.795 volumn: 73866 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:26:55 093240 price: 6250.0 profit: -0.636 volumn: 74566 diff: 700.0 traffic: 0.4375 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:27:30 093240 price: 6250.0 profit: -0.636 volumn: 74576 diff: 10.0 traffic: 0.00625 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:28:5 093240 price: 6250.0 profit: -0.636 volumn: 74576 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:28:40 093240 price: 6240.0 profit: -0.795 volumn: 75376 diff: 800.0 traffic: 0.4992 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:29:15 093240 price: 6240.0 profit: -0.795 volumn: 75376 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:29:51 093240 price: 6250.0 profit: -0.636 volumn: 75426 diff: 50.0 traffic: 0.03125 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:30:26 093240 price: 6250.0 profit: -0.636 volumn: 75426 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:31:1 093240 price: 6250.0 profit: -0.636 volumn: 75624 diff: 198.0 traffic: 0.12375 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:31:36 093240 price: 6250.0 profit: -0.636 volumn: 75624 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:32:11 093240 price: 6270.0 profit: -0.318 volumn: 75625 diff: 1.0 traffic: 6.27E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, true, false]
+
+check 10:32:47 093240 price: 6270.0 profit: -0.318 volumn: 75625 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:33:22 093240 price: 6270.0 profit: -0.318 volumn: 75625 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:33:57 093240 price: 6270.0 profit: -0.318 volumn: 76293 diff: 668.0 traffic: 0.418836 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:34:32 093240 price: 6270.0 profit: -0.318 volumn: 76974 diff: 681.0 traffic: 0.426987 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:35:7 093240 price: 6270.0 profit: -0.318 volumn: 76974 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:35:42 093240 price: 6270.0 profit: -0.318 volumn: 76974 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:36:18 093240 price: 6270.0 profit: -0.318 volumn: 77719 diff: 745.0 traffic: 0.467115 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:36:53 093240 price: 6270.0 profit: -0.318 volumn: 77719 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:37:28 093240 price: 6270.0 profit: -0.318 volumn: 77755 diff: 36.0 traffic: 0.022572 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:38:3 093240 price: 6270.0 profit: -0.318 volumn: 77765 diff: 10.0 traffic: 0.00627 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:38:38 093240 price: 6270.0 profit: -0.318 volumn: 78552 diff: 787.0 traffic: 0.493449 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:39:13 093240 price: 6270.0 profit: -0.318 volumn: 78552 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:39:49 093240 price: 6260.0 profit: -0.477 volumn: 79562 diff: 1010.0 traffic: 0.63226 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:40:24 093240 price: 6260.0 profit: -0.477 volumn: 79562 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:40:59 093240 price: 6260.0 profit: -0.477 volumn: 79581 diff: 19.0 traffic: 0.011894 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:41:34 093240 price: 6240.0 profit: -0.795 volumn: 83027 diff: 3446.0 traffic: 2.150304 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, true]
+
+check 10:42:9 093240 price: 6230.0 profit: -0.954 volumn: 84372 diff: 1345.0 traffic: 0.837935 up:0 down: 2 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:42:44 093240 price: 6210.0 profit: -1.272 volumn: 90512 diff: 6140.0 traffic: 3.81294 up:0 down: 3 [true, true, true, true, false, false, false, false, false, true, false, true, true]
+
+check 10:43:20 093240 price: 6260.0 profit: -0.477 volumn: 94437 diff: 3925.0 traffic: 2.45705 up:1 down: 0 [true, true, true, false, false, false, false, false, false, true, true, true, true]
+
+check 10:43:55 093240 price: 6260.0 profit: -0.477 volumn: 94437 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:44:30 093240 price: 6240.0 profit: -0.795 volumn: 94440 diff: 3.0 traffic: 0.001872 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:45:5 093240 price: 6240.0 profit: -0.795 volumn: 94518 diff: 78.0 traffic: 0.048672 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:45:40 093240 price: 6240.0 profit: -0.795 volumn: 94521 diff: 3.0 traffic: 0.001872 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:46:15 093240 price: 6240.0 profit: -0.795 volumn: 94524 diff: 3.0 traffic: 0.001872 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:46:51 093240 price: 6240.0 profit: -0.795 volumn: 94528 diff: 4.0 traffic: 0.002496 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:47:26 093240 price: 6250.0 profit: -0.636 volumn: 94541 diff: 13.0 traffic: 0.008125 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, true, false]
+
+check 10:48:1 093240 price: 6250.0 profit: -0.636 volumn: 94541 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:48:36 093240 price: 6250.0 profit: -0.636 volumn: 94541 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:49:11 093240 price: 6240.0 profit: -0.795 volumn: 94542 diff: 1.0 traffic: 6.24E-4 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:49:46 093240 price: 6230.0 profit: -0.954 volumn: 95207 diff: 665.0 traffic: 0.414295 up:0 down: 2 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:50:22 093240 price: 6230.0 profit: -0.954 volumn: 95407 diff: 200.0 traffic: 0.1246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:50:57 093240 price: 6230.0 profit: -0.954 volumn: 95407 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:51:32 093240 price: 6230.0 profit: -0.954 volumn: 95493 diff: 86.0 traffic: 0.053578 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:52:7 093240 price: 6230.0 profit: -0.954 volumn: 95594 diff: 101.0 traffic: 0.062923 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:52:42 093240 price: 6240.0 profit: -0.795 volumn: 95599 diff: 5.0 traffic: 0.00312 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, true, false]
+
+check 10:53:17 093240 price: 6230.0 profit: -0.954 volumn: 95871 diff: 272.0 traffic: 0.169456 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:53:53 093240 price: 6230.0 profit: -0.954 volumn: 96585 diff: 714.0 traffic: 0.444822 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:54:28 093240 price: 6230.0 profit: -0.954 volumn: 96585 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:55:3 093240 price: 6230.0 profit: -0.954 volumn: 96810 diff: 225.0 traffic: 0.140175 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:55:38 093240 price: 6230.0 profit: -0.954 volumn: 99190 diff: 2380.0 traffic: 1.48274 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:56:13 093240 price: 6230.0 profit: -0.954 volumn: 99210 diff: 20.0 traffic: 0.01246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:56:49 093240 price: 6230.0 profit: -0.954 volumn: 99398 diff: 188.0 traffic: 0.117124 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, true, false]
+
+check 10:57:24 093240 price: 6230.0 profit: -0.954 volumn: 99513 diff: 115.0 traffic: 0.071645 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:57:59 093240 price: 6230.0 profit: -0.954 volumn: 99513 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 10:58:34 093240 price: 6230.0 profit: -0.954 volumn: 99513 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, true, false]
+
+check 10:59:9 093240 price: 6230.0 profit: -0.954 volumn: 99689 diff: 176.0 traffic: 0.109648 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, true, false]
+
+check 10:59:44 093240 price: 6230.0 profit: -0.954 volumn: 99689 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, true, false]
+
+check 11:0:20 093240 price: 6230.0 profit: -0.954 volumn: 99689 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:0:55 093240 price: 6230.0 profit: -0.954 volumn: 99689 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:1:30 093240 price: 6230.0 profit: -0.954 volumn: 99707 diff: 18.0 traffic: 0.011214 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:2:5 093240 price: 6230.0 profit: -0.954 volumn: 99707 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:2:40 093240 price: 6230.0 profit: -0.954 volumn: 99707 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:3:15 093240 price: 6210.0 profit: -1.272 volumn: 101207 diff: 1500.0 traffic: 0.9315 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:3:51 093240 price: 6220.0 profit: -1.113 volumn: 101288 diff: 81.0 traffic: 0.050382 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 11:4:26 093240 price: 6220.0 profit: -1.113 volumn: 101301 diff: 13.0 traffic: 0.008086 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:5:1 093240 price: 6220.0 profit: -1.113 volumn: 101313 diff: 12.0 traffic: 0.007464 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:5:36 093240 price: 6210.0 profit: -1.272 volumn: 102920 diff: 1607.0 traffic: 0.997947 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:6:11 093240 price: 6170.0 profit: -1.908 volumn: 110207 diff: 7287.0 traffic: 4.496079 up:0 down: 2 [true, true, true, true, false, false, false, false, false, true, false, false, true]
+
+check 11:6:46 093240 price: 6190.0 profit: -1.59 volumn: 110264 diff: 57.0 traffic: 0.035283 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 11:7:22 093240 price: 6200.0 profit: -1.431 volumn: 110298 diff: 34.0 traffic: 0.02108 up:2 down: 0 [true, true, true, false, false, false, false, true, false, false, true, false, false]
+
+check 11:7:57 093240 price: 6200.0 profit: -1.431 volumn: 110308 diff: 10.0 traffic: 0.0062 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:8:32 093240 price: 6200.0 profit: -1.431 volumn: 111308 diff: 1000.0 traffic: 0.62 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:9:7 093240 price: 6200.0 profit: -1.431 volumn: 111308 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:9:42 093240 price: 6200.0 profit: -1.431 volumn: 111309 diff: 1.0 traffic: 6.2E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:10:17 093240 price: 6210.0 profit: -1.272 volumn: 112117 diff: 808.0 traffic: 0.501768 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 11:10:53 093240 price: 6190.0 profit: -1.59 volumn: 112575 diff: 458.0 traffic: 0.283502 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:11:28 093240 price: 6190.0 profit: -1.59 volumn: 112575 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:12:3 093240 price: 6190.0 profit: -1.59 volumn: 112575 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:12:38 093240 price: 6180.0 profit: -1.749 volumn: 113775 diff: 1200.0 traffic: 0.7416 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:13:13 093240 price: 6200.0 profit: -1.431 volumn: 118438 diff: 4663.0 traffic: 2.89106 up:1 down: 0 [true, true, true, true, false, false, false, false, false, true, true, false, true]
+
+check 11:13:48 093240 price: 6200.0 profit: -1.431 volumn: 118438 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:14:24 093240 price: 6200.0 profit: -1.431 volumn: 118438 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:14:59 093240 price: 6200.0 profit: -1.431 volumn: 118438 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:15:34 093240 price: 6200.0 profit: -1.431 volumn: 118438 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:16:9 093240 price: 6200.0 profit: -1.431 volumn: 118588 diff: 150.0 traffic: 0.093 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:16:44 093240 price: 6210.0 profit: -1.272 volumn: 118590 diff: 2.0 traffic: 0.001242 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 11:17:19 093240 price: 6200.0 profit: -1.431 volumn: 118621 diff: 31.0 traffic: 0.01922 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:17:55 093240 price: 6200.0 profit: -1.431 volumn: 118768 diff: 147.0 traffic: 0.09114 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:18:30 093240 price: 6210.0 profit: -1.272 volumn: 119120 diff: 352.0 traffic: 0.218592 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 11:19:5 093240 price: 6210.0 profit: -1.272 volumn: 119120 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:19:40 093240 price: 6220.0 profit: -1.113 volumn: 119121 diff: 1.0 traffic: 6.22E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 11:20:15 093240 price: 6220.0 profit: -1.113 volumn: 119124 diff: 3.0 traffic: 0.001866 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:20:50 093240 price: 6220.0 profit: -1.113 volumn: 119396 diff: 272.0 traffic: 0.169184 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:21:26 093240 price: 6240.0 profit: -0.795 volumn: 119597 diff: 201.0 traffic: 0.125424 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 11:22:1 093240 price: 6230.0 profit: -0.954 volumn: 119982 diff: 385.0 traffic: 0.239855 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:22:36 093240 price: 6240.0 profit: -0.795 volumn: 119983 diff: 1.0 traffic: 6.24E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 11:23:11 093240 price: 6240.0 profit: -0.795 volumn: 119983 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:23:46 093240 price: 6240.0 profit: -0.795 volumn: 119986 diff: 3.0 traffic: 0.001872 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:24:21 093240 price: 6240.0 profit: -0.795 volumn: 119986 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:24:57 093240 price: 6240.0 profit: -0.795 volumn: 119986 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:25:32 093240 price: 6230.0 profit: -0.954 volumn: 119987 diff: 1.0 traffic: 6.23E-4 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:26:7 093240 price: 6230.0 profit: -0.954 volumn: 119996 diff: 9.0 traffic: 0.005607 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:26:42 093240 price: 6220.0 profit: -1.113 volumn: 120307 diff: 311.0 traffic: 0.193442 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:27:17 093240 price: 6220.0 profit: -1.113 volumn: 120307 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:27:52 093240 price: 6220.0 profit: -1.113 volumn: 120307 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:28:28 093240 price: 6220.0 profit: -1.113 volumn: 120907 diff: 600.0 traffic: 0.3732 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:29:3 093240 price: 6220.0 profit: -1.113 volumn: 121187 diff: 280.0 traffic: 0.17416 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:29:38 093240 price: 6220.0 profit: -1.113 volumn: 121187 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:30:13 093240 price: 6210.0 profit: -1.272 volumn: 121991 diff: 804.0 traffic: 0.499284 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:30:48 093240 price: 6210.0 profit: -1.272 volumn: 121991 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:31:23 093240 price: 6190.0 profit: -1.59 volumn: 124000 diff: 2009.0 traffic: 1.243571 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:31:59 093240 price: 6190.0 profit: -1.59 volumn: 124000 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:32:34 093240 price: 6190.0 profit: -1.59 volumn: 124000 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:33:9 093240 price: 6220.0 profit: -1.113 volumn: 124001 diff: 1.0 traffic: 6.22E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 11:33:44 093240 price: 6220.0 profit: -1.113 volumn: 124001 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:34:19 093240 price: 6220.0 profit: -1.113 volumn: 124001 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:34:55 093240 price: 6220.0 profit: -1.113 volumn: 124001 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:35:30 093240 price: 6220.0 profit: -1.113 volumn: 124201 diff: 200.0 traffic: 0.1244 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:36:5 093240 price: 6220.0 profit: -1.113 volumn: 124201 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:36:40 093240 price: 6220.0 profit: -1.113 volumn: 124230 diff: 29.0 traffic: 0.018038 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:37:15 093240 price: 6220.0 profit: -1.113 volumn: 124230 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:37:51 093240 price: 6220.0 profit: -1.113 volumn: 124241 diff: 11.0 traffic: 0.006842 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:38:26 093240 price: 6230.0 profit: -0.954 volumn: 124307 diff: 66.0 traffic: 0.041118 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 11:39:1 093240 price: 6230.0 profit: -0.954 volumn: 124307 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:39:36 093240 price: 6230.0 profit: -0.954 volumn: 124541 diff: 234.0 traffic: 0.145782 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:40:11 093240 price: 6230.0 profit: -0.954 volumn: 124541 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:40:46 093240 price: 6230.0 profit: -0.954 volumn: 124541 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:41:22 093240 price: 6230.0 profit: -0.954 volumn: 124843 diff: 302.0 traffic: 0.188146 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:41:57 093240 price: 6230.0 profit: -0.954 volumn: 124843 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:42:32 093240 price: 6230.0 profit: -0.954 volumn: 124843 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:43:7 093240 price: 6230.0 profit: -0.954 volumn: 124843 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:43:42 093240 price: 6190.0 profit: -1.59 volumn: 127099 diff: 2256.0 traffic: 1.396464 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:44:17 093240 price: 6190.0 profit: -1.59 volumn: 127099 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:44:53 093240 price: 6190.0 profit: -1.59 volumn: 127099 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:45:28 093240 price: 6230.0 profit: -0.954 volumn: 127321 diff: 222.0 traffic: 0.138306 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 11:46:3 093240 price: 6240.0 profit: -0.795 volumn: 127961 diff: 640.0 traffic: 0.39936 up:2 down: 0 [true, true, true, true, false, false, false, true, false, false, true, false, false]
+
+check 11:46:38 093240 price: 6240.0 profit: -0.795 volumn: 127961 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:47:13 093240 price: 6240.0 profit: -0.795 volumn: 127961 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:47:48 093240 price: 6240.0 profit: -0.795 volumn: 127961 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:48:24 093240 price: 6240.0 profit: -0.795 volumn: 127962 diff: 1.0 traffic: 6.24E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:48:59 093240 price: 6240.0 profit: -0.795 volumn: 127962 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:49:34 093240 price: 6240.0 profit: -0.795 volumn: 127962 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:50:9 093240 price: 6240.0 profit: -0.795 volumn: 127962 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:50:44 093240 price: 6240.0 profit: -0.795 volumn: 128762 diff: 800.0 traffic: 0.4992 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:51:19 093240 price: 6240.0 profit: -0.795 volumn: 128763 diff: 1.0 traffic: 6.24E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:51:55 093240 price: 6240.0 profit: -0.795 volumn: 128763 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:52:30 093240 price: 6240.0 profit: -0.795 volumn: 128763 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:53:5 093240 price: 6240.0 profit: -0.795 volumn: 128768 diff: 5.0 traffic: 0.00312 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:53:40 093240 price: 6240.0 profit: -0.795 volumn: 128768 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:54:15 093240 price: 6240.0 profit: -0.795 volumn: 128768 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 11:54:51 093240 price: 6240.0 profit: -0.795 volumn: 128773 diff: 5.0 traffic: 0.00312 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:55:26 093240 price: 6240.0 profit: -0.795 volumn: 128781 diff: 8.0 traffic: 0.004992 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 11:56:1 093240 price: 6240.0 profit: -0.795 volumn: 128784 diff: 3.0 traffic: 0.001872 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:56:36 093240 price: 6240.0 profit: -0.795 volumn: 128785 diff: 1.0 traffic: 6.24E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:57:11 093240 price: 6240.0 profit: -0.795 volumn: 128785 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:57:46 093240 price: 6230.0 profit: -0.954 volumn: 128796 diff: 11.0 traffic: 0.006853 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:58:22 093240 price: 6230.0 profit: -0.954 volumn: 128796 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 11:58:57 093240 price: 6220.0 profit: -1.113 volumn: 128896 diff: 100.0 traffic: 0.0622 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 11:59:32 093240 price: 6210.0 profit: -1.272 volumn: 128997 diff: 101.0 traffic: 0.062721 up:0 down: 2 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:0:7 093240 price: 6210.0 profit: -1.272 volumn: 128997 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:0:42 093240 price: 6210.0 profit: -1.272 volumn: 129047 diff: 50.0 traffic: 0.03105 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:1:17 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 13.0 traffic: 0.008112 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 12:1:53 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:2:28 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:3:3 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:3:38 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:4:13 093240 price: 6240.0 profit: -0.795 volumn: 129060 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:4:48 093240 price: 6240.0 profit: -0.795 volumn: 129760 diff: 700.0 traffic: 0.4368 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:5:24 093240 price: 6240.0 profit: -0.795 volumn: 129760 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:5:59 093240 price: 6240.0 profit: -0.795 volumn: 129761 diff: 1.0 traffic: 6.24E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:6:34 093240 price: 6240.0 profit: -0.795 volumn: 129761 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:7:9 093240 price: 6230.0 profit: -0.954 volumn: 129763 diff: 2.0 traffic: 0.001246 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:7:44 093240 price: 6230.0 profit: -0.954 volumn: 129763 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:8:19 093240 price: 6230.0 profit: -0.954 volumn: 129763 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:8:55 093240 price: 6220.0 profit: -1.113 volumn: 130263 diff: 500.0 traffic: 0.311 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:9:30 093240 price: 6220.0 profit: -1.113 volumn: 130263 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:10:5 093240 price: 6220.0 profit: -1.113 volumn: 130263 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:10:40 093240 price: 6220.0 profit: -1.113 volumn: 130263 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:11:15 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 850.0 traffic: 0.5287 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:11:50 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:12:26 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:13:1 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:13:36 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:14:11 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:14:46 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:15:21 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:15:57 093240 price: 6220.0 profit: -1.113 volumn: 131113 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:16:32 093240 price: 6230.0 profit: -0.954 volumn: 131649 diff: 536.0 traffic: 0.333928 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 12:17:7 093240 price: 6230.0 profit: -0.954 volumn: 131875 diff: 226.0 traffic: 0.140798 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:17:42 093240 price: 6230.0 profit: -0.954 volumn: 131891 diff: 16.0 traffic: 0.009968 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:18:17 093240 price: 6230.0 profit: -0.954 volumn: 131891 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:18:52 093240 price: 6230.0 profit: -0.954 volumn: 131891 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:19:28 093240 price: 6230.0 profit: -0.954 volumn: 131891 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:20:3 093240 price: 6240.0 profit: -0.795 volumn: 131893 diff: 2.0 traffic: 0.001248 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 12:20:38 093240 price: 6240.0 profit: -0.795 volumn: 131896 diff: 3.0 traffic: 0.001872 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:21:13 093240 price: 6240.0 profit: -0.795 volumn: 131901 diff: 5.0 traffic: 0.00312 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:21:48 093240 price: 6240.0 profit: -0.795 volumn: 131906 diff: 5.0 traffic: 0.00312 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:22:23 093240 price: 6240.0 profit: -0.795 volumn: 131906 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:22:59 093240 price: 6240.0 profit: -0.795 volumn: 131906 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:23:34 093240 price: 6240.0 profit: -0.795 volumn: 131906 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:24:9 093240 price: 6240.0 profit: -0.795 volumn: 131906 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:24:44 093240 price: 6240.0 profit: -0.795 volumn: 131929 diff: 23.0 traffic: 0.014352 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:25:19 093240 price: 6240.0 profit: -0.795 volumn: 131929 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:25:54 093240 price: 6240.0 profit: -0.795 volumn: 131929 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:26:29 093240 price: 6240.0 profit: -0.795 volumn: 131929 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:27:5 093240 price: 6240.0 profit: -0.795 volumn: 132051 diff: 122.0 traffic: 0.076128 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:27:40 093240 price: 6240.0 profit: -0.795 volumn: 132051 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:28:15 093240 price: 6240.0 profit: -0.795 volumn: 132066 diff: 15.0 traffic: 0.00936 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:28:50 093240 price: 6240.0 profit: -0.795 volumn: 132072 diff: 6.0 traffic: 0.003744 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:29:25 093240 price: 6230.0 profit: -0.954 volumn: 132315 diff: 243.0 traffic: 0.151389 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:30:1 093240 price: 6230.0 profit: -0.954 volumn: 132321 diff: 6.0 traffic: 0.003738 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:30:36 093240 price: 6230.0 profit: -0.954 volumn: 132321 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:31:11 093240 price: 6230.0 profit: -0.954 volumn: 132321 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:31:46 093240 price: 6230.0 profit: -0.954 volumn: 132341 diff: 20.0 traffic: 0.01246 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:32:21 093240 price: 6230.0 profit: -0.954 volumn: 132373 diff: 32.0 traffic: 0.019936 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:32:56 093240 price: 6230.0 profit: -0.954 volumn: 132473 diff: 100.0 traffic: 0.0623 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:33:31 093240 price: 6230.0 profit: -0.954 volumn: 132473 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:34:7 093240 price: 6230.0 profit: -0.954 volumn: 132481 diff: 8.0 traffic: 0.004984 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:34:42 093240 price: 6230.0 profit: -0.954 volumn: 132581 diff: 100.0 traffic: 0.0623 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:35:17 093240 price: 6230.0 profit: -0.954 volumn: 132581 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:35:52 093240 price: 6230.0 profit: -0.954 volumn: 132583 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:36:27 093240 price: 6230.0 profit: -0.954 volumn: 132583 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:37:3 093240 price: 6230.0 profit: -0.954 volumn: 132683 diff: 100.0 traffic: 0.0623 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:37:38 093240 price: 6230.0 profit: -0.954 volumn: 132696 diff: 13.0 traffic: 0.008099 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:38:13 093240 price: 6230.0 profit: -0.954 volumn: 132697 diff: 1.0 traffic: 6.23E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:38:48 093240 price: 6230.0 profit: -0.954 volumn: 132799 diff: 102.0 traffic: 0.063546 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:39:23 093240 price: 6220.0 profit: -1.113 volumn: 133226 diff: 427.0 traffic: 0.265594 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 12:39:58 093240 price: 6220.0 profit: -1.113 volumn: 133226 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:40:34 093240 price: 6220.0 profit: -1.113 volumn: 133228 diff: 2.0 traffic: 0.001244 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:41:9 093240 price: 6230.0 profit: -0.954 volumn: 133352 diff: 124.0 traffic: 0.077252 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 12:41:44 093240 price: 6230.0 profit: -0.954 volumn: 133352 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:42:19 093240 price: 6230.0 profit: -0.954 volumn: 133352 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:42:54 093240 price: 6230.0 profit: -0.954 volumn: 134152 diff: 800.0 traffic: 0.4984 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:43:29 093240 price: 6230.0 profit: -0.954 volumn: 134152 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:44:5 093240 price: 6220.0 profit: -1.113 volumn: 134155 diff: 3.0 traffic: 0.001866 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:44:40 093240 price: 6220.0 profit: -1.113 volumn: 134155 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:45:15 093240 price: 6220.0 profit: -1.113 volumn: 134163 diff: 8.0 traffic: 0.004976 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:45:50 093240 price: 6230.0 profit: -0.954 volumn: 134336 diff: 173.0 traffic: 0.107779 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 12:46:25 093240 price: 6230.0 profit: -0.954 volumn: 134365 diff: 29.0 traffic: 0.018067 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:47:0 093240 price: 6230.0 profit: -0.954 volumn: 134365 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:47:35 093240 price: 6230.0 profit: -0.954 volumn: 134418 diff: 53.0 traffic: 0.033019 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:48:11 093240 price: 6230.0 profit: -0.954 volumn: 134419 diff: 1.0 traffic: 6.23E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:48:46 093240 price: 6230.0 profit: -0.954 volumn: 134419 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:49:21 093240 price: 6230.0 profit: -0.954 volumn: 134469 diff: 50.0 traffic: 0.03115 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:49:56 093240 price: 6230.0 profit: -0.954 volumn: 134469 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:50:31 093240 price: 6230.0 profit: -0.954 volumn: 134469 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:51:6 093240 price: 6220.0 profit: -1.113 volumn: 134489 diff: 20.0 traffic: 0.01244 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:51:42 093240 price: 6230.0 profit: -0.954 volumn: 134494 diff: 5.0 traffic: 0.003115 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 12:52:17 093240 price: 6230.0 profit: -0.954 volumn: 134494 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:52:52 093240 price: 6230.0 profit: -0.954 volumn: 134494 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:53:27 093240 price: 6230.0 profit: -0.954 volumn: 134494 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:54:2 093240 price: 6230.0 profit: -0.954 volumn: 134494 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:54:37 093240 price: 6230.0 profit: -0.954 volumn: 134913 diff: 419.0 traffic: 0.261037 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:55:13 093240 price: 6230.0 profit: -0.954 volumn: 134913 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:55:48 093240 price: 6230.0 profit: -0.954 volumn: 134913 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:56:23 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 1.0 traffic: 6.23E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 12:56:58 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 12:57:33 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:58:8 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:58:44 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:59:19 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 12:59:54 093240 price: 6230.0 profit: -0.954 volumn: 134914 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:0:29 093240 price: 6230.0 profit: -0.954 volumn: 134915 diff: 1.0 traffic: 6.23E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:1:4 093240 price: 6230.0 profit: -0.954 volumn: 134925 diff: 10.0 traffic: 0.00623 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:1:39 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 9.0 traffic: 0.005607 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:2:15 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:2:50 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:3:25 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:4:0 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:4:35 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:5:10 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:5:46 093240 price: 6230.0 profit: -0.954 volumn: 134934 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:6:21 093240 price: 6230.0 profit: -0.954 volumn: 134936 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:6:56 093240 price: 6230.0 profit: -0.954 volumn: 134938 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:7:31 093240 price: 6230.0 profit: -0.954 volumn: 134940 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:8:6 093240 price: 6230.0 profit: -0.954 volumn: 135346 diff: 406.0 traffic: 0.252938 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:8:41 093240 price: 6230.0 profit: -0.954 volumn: 135348 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:9:17 093240 price: 6230.0 profit: -0.954 volumn: 136101 diff: 753.0 traffic: 0.469119 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:9:52 093240 price: 6230.0 profit: -0.954 volumn: 137200 diff: 1099.0 traffic: 0.684677 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:10:27 093240 price: 6220.0 profit: -1.113 volumn: 137503 diff: 303.0 traffic: 0.188466 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:11:2 093240 price: 6220.0 profit: -1.113 volumn: 138520 diff: 1017.0 traffic: 0.632574 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:11:37 093240 price: 6220.0 profit: -1.113 volumn: 138520 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:12:12 093240 price: 6230.0 profit: -0.954 volumn: 138527 diff: 7.0 traffic: 0.004361 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:12:48 093240 price: 6230.0 profit: -0.954 volumn: 138535 diff: 8.0 traffic: 0.004984 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:13:23 093240 price: 6230.0 profit: -0.954 volumn: 138537 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:13:58 093240 price: 6230.0 profit: -0.954 volumn: 138540 diff: 3.0 traffic: 0.001869 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:14:33 093240 price: 6230.0 profit: -0.954 volumn: 138542 diff: 2.0 traffic: 0.001246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:15:8 093240 price: 6230.0 profit: -0.954 volumn: 138545 diff: 3.0 traffic: 0.001869 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:15:44 093240 price: 6210.0 profit: -1.272 volumn: 138751 diff: 206.0 traffic: 0.127926 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:16:19 093240 price: 6210.0 profit: -1.272 volumn: 138751 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:16:54 093240 price: 6210.0 profit: -1.272 volumn: 138762 diff: 11.0 traffic: 0.006831 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:17:29 093240 price: 6220.0 profit: -1.113 volumn: 138773 diff: 11.0 traffic: 0.006842 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 13:18:4 093240 price: 6210.0 profit: -1.272 volumn: 138885 diff: 112.0 traffic: 0.069552 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:18:40 093240 price: 6230.0 profit: -0.954 volumn: 138886 diff: 1.0 traffic: 6.23E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 13:19:15 093240 price: 6230.0 profit: -0.954 volumn: 139136 diff: 250.0 traffic: 0.15575 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:19:50 093240 price: 6230.0 profit: -0.954 volumn: 139136 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:20:25 093240 price: 6230.0 profit: -0.954 volumn: 139137 diff: 1.0 traffic: 6.23E-4 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:21:0 093240 price: 6230.0 profit: -0.954 volumn: 139137 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:21:35 093240 price: 6230.0 profit: -0.954 volumn: 139137 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:22:10 093240 price: 6230.0 profit: -0.954 volumn: 139137 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:22:46 093240 price: 6230.0 profit: -0.954 volumn: 139142 diff: 5.0 traffic: 0.003115 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:23:21 093240 price: 6230.0 profit: -0.954 volumn: 139646 diff: 504.0 traffic: 0.313992 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:23:56 093240 price: 6210.0 profit: -1.272 volumn: 142241 diff: 2595.0 traffic: 1.611495 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:24:31 093240 price: 6210.0 profit: -1.272 volumn: 142241 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:25:6 093240 price: 6230.0 profit: -0.954 volumn: 142267 diff: 26.0 traffic: 0.016198 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:25:41 093240 price: 6220.0 profit: -1.113 volumn: 142297 diff: 30.0 traffic: 0.01866 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:26:17 093240 price: 6210.0 profit: -1.272 volumn: 142567 diff: 270.0 traffic: 0.16767 up:0 down: 2 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:26:52 093240 price: 6210.0 profit: -1.272 volumn: 142567 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:27:27 093240 price: 6220.0 profit: -1.113 volumn: 142712 diff: 145.0 traffic: 0.09019 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:28:2 093240 price: 6220.0 profit: -1.113 volumn: 142762 diff: 50.0 traffic: 0.0311 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:28:37 093240 price: 6230.0 profit: -0.954 volumn: 142764 diff: 2.0 traffic: 0.001246 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 13:29:12 093240 price: 6230.0 profit: -0.954 volumn: 142842 diff: 78.0 traffic: 0.048594 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:29:48 093240 price: 6230.0 profit: -0.954 volumn: 142842 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:30:23 093240 price: 6230.0 profit: -0.954 volumn: 143242 diff: 400.0 traffic: 0.2492 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:30:58 093240 price: 6230.0 profit: -0.954 volumn: 143262 diff: 20.0 traffic: 0.01246 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:31:33 093240 price: 6230.0 profit: -0.954 volumn: 143267 diff: 5.0 traffic: 0.003115 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:32:8 093240 price: 6230.0 profit: -0.954 volumn: 143267 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:32:43 093240 price: 6230.0 profit: -0.954 volumn: 143267 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:33:19 093240 price: 6230.0 profit: -0.954 volumn: 143271 diff: 4.0 traffic: 0.002492 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:33:54 093240 price: 6230.0 profit: -0.954 volumn: 143271 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:34:29 093240 price: 6220.0 profit: -1.113 volumn: 144102 diff: 831.0 traffic: 0.516882 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:35:4 093240 price: 6220.0 profit: -1.113 volumn: 144102 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:35:39 093240 price: 6220.0 profit: -1.113 volumn: 144102 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:36:14 093240 price: 6220.0 profit: -1.113 volumn: 144102 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:36:50 093240 price: 6220.0 profit: -1.113 volumn: 144177 diff: 75.0 traffic: 0.04665 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:37:25 093240 price: 6220.0 profit: -1.113 volumn: 144177 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:38:0 093240 price: 6220.0 profit: -1.113 volumn: 144177 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:38:35 093240 price: 6230.0 profit: -0.954 volumn: 144179 diff: 2.0 traffic: 0.001246 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:39:10 093240 price: 6230.0 profit: -0.954 volumn: 144179 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:39:45 093240 price: 6210.0 profit: -1.272 volumn: 145179 diff: 1000.0 traffic: 0.621 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:40:21 093240 price: 6210.0 profit: -1.272 volumn: 145519 diff: 340.0 traffic: 0.21114 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:40:56 093240 price: 6210.0 profit: -1.272 volumn: 146581 diff: 1062.0 traffic: 0.659502 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:41:31 093240 price: 6210.0 profit: -1.272 volumn: 146812 diff: 231.0 traffic: 0.143451 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:42:6 093240 price: 6210.0 profit: -1.272 volumn: 146812 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:42:41 093240 price: 6230.0 profit: -0.954 volumn: 147411 diff: 599.0 traffic: 0.373177 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:43:16 093240 price: 6230.0 profit: -0.954 volumn: 147411 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:43:52 093240 price: 6230.0 profit: -0.954 volumn: 147411 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:44:27 093240 price: 6200.0 profit: -1.431 volumn: 150111 diff: 2700.0 traffic: 1.674 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:45:2 093240 price: 6200.0 profit: -1.431 volumn: 150111 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:45:37 093240 price: 6230.0 profit: -0.954 volumn: 150112 diff: 1.0 traffic: 6.23E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:46:12 093240 price: 6230.0 profit: -0.954 volumn: 150112 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:46:48 093240 price: 6230.0 profit: -0.954 volumn: 150112 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:47:23 093240 price: 6230.0 profit: -0.954 volumn: 150112 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:47:58 093240 price: 6200.0 profit: -1.431 volumn: 151953 diff: 1841.0 traffic: 1.14142 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:48:33 093240 price: 6230.0 profit: -0.954 volumn: 151954 diff: 1.0 traffic: 6.23E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 13:49:8 093240 price: 6230.0 profit: -0.954 volumn: 151954 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:49:43 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 200.0 traffic: 0.1242 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:50:19 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:50:54 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:51:29 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:52:4 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:52:39 093240 price: 6210.0 profit: -1.272 volumn: 152154 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:53:15 093240 price: 6210.0 profit: -1.272 volumn: 152454 diff: 300.0 traffic: 0.1863 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:53:50 093240 price: 6210.0 profit: -1.272 volumn: 152454 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:54:25 093240 price: 6210.0 profit: -1.272 volumn: 152472 diff: 18.0 traffic: 0.011178 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 13:55:0 093240 price: 6210.0 profit: -1.272 volumn: 152472 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:55:35 093240 price: 6210.0 profit: -1.272 volumn: 152472 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:56:10 093240 price: 6210.0 profit: -1.272 volumn: 152472 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:56:46 093240 price: 6220.0 profit: -1.113 volumn: 152616 diff: 144.0 traffic: 0.089568 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 13:57:21 093240 price: 6220.0 profit: -1.113 volumn: 152636 diff: 20.0 traffic: 0.01244 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:57:56 093240 price: 6220.0 profit: -1.113 volumn: 152724 diff: 88.0 traffic: 0.054736 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 13:58:31 093240 price: 6220.0 profit: -1.113 volumn: 152724 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 13:59:6 093240 price: 6220.0 profit: -1.113 volumn: 152724 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 13:59:41 093240 price: 6220.0 profit: -1.113 volumn: 152724 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:0:17 093240 price: 6220.0 profit: -1.113 volumn: 152774 diff: 50.0 traffic: 0.0311 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:0:52 093240 price: 6210.0 profit: -1.272 volumn: 152795 diff: 21.0 traffic: 0.013041 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:1:27 093240 price: 6220.0 profit: -1.113 volumn: 153798 diff: 1003.0 traffic: 0.623866 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 14:2:2 093240 price: 6220.0 profit: -1.113 volumn: 153798 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:2:37 093240 price: 6220.0 profit: -1.113 volumn: 154798 diff: 1000.0 traffic: 0.622 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:3:12 093240 price: 6220.0 profit: -1.113 volumn: 155938 diff: 1140.0 traffic: 0.70908 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:3:48 093240 price: 6210.0 profit: -1.272 volumn: 156033 diff: 95.0 traffic: 0.058995 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:4:23 093240 price: 6210.0 profit: -1.272 volumn: 156033 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:4:58 093240 price: 6220.0 profit: -1.113 volumn: 156035 diff: 2.0 traffic: 0.001244 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:5:33 093240 price: 6210.0 profit: -1.272 volumn: 156228 diff: 193.0 traffic: 0.119853 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:6:8 093240 price: 6210.0 profit: -1.272 volumn: 156228 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:6:44 093240 price: 6220.0 profit: -1.113 volumn: 156378 diff: 150.0 traffic: 0.0933 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:7:19 093240 price: 6220.0 profit: -1.113 volumn: 156379 diff: 1.0 traffic: 6.22E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:7:54 093240 price: 6220.0 profit: -1.113 volumn: 156547 diff: 168.0 traffic: 0.104496 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:8:29 093240 price: 6220.0 profit: -1.113 volumn: 156547 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:9:4 093240 price: 6220.0 profit: -1.113 volumn: 156597 diff: 50.0 traffic: 0.0311 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:9:39 093240 price: 6220.0 profit: -1.113 volumn: 156597 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:10:15 093240 price: 6210.0 profit: -1.272 volumn: 157108 diff: 511.0 traffic: 0.317331 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:10:50 093240 price: 6220.0 profit: -1.113 volumn: 158108 diff: 1000.0 traffic: 0.622 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 14:11:25 093240 price: 6220.0 profit: -1.113 volumn: 158108 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:12:0 093240 price: 6220.0 profit: -1.113 volumn: 158108 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:12:35 093240 price: 6220.0 profit: -1.113 volumn: 158108 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:13:11 093240 price: 6220.0 profit: -1.113 volumn: 159885 diff: 1777.0 traffic: 1.105294 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:13:46 093240 price: 6220.0 profit: -1.113 volumn: 159885 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:14:21 093240 price: 6220.0 profit: -1.113 volumn: 159885 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:14:56 093240 price: 6220.0 profit: -1.113 volumn: 160000 diff: 115.0 traffic: 0.07153 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:15:31 093240 price: 6210.0 profit: -1.272 volumn: 160040 diff: 40.0 traffic: 0.02484 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:16:7 093240 price: 6210.0 profit: -1.272 volumn: 160740 diff: 700.0 traffic: 0.4347 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:16:42 093240 price: 6210.0 profit: -1.272 volumn: 160740 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:17:17 093240 price: 6220.0 profit: -1.113 volumn: 161501 diff: 761.0 traffic: 0.473342 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:17:52 093240 price: 6220.0 profit: -1.113 volumn: 161501 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:18:27 093240 price: 6220.0 profit: -1.113 volumn: 161501 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:19:2 093240 price: 6220.0 profit: -1.113 volumn: 161501 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:19:38 093240 price: 6220.0 profit: -1.113 volumn: 161501 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:20:13 093240 price: 6220.0 profit: -1.113 volumn: 161506 diff: 5.0 traffic: 0.00311 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:20:48 093240 price: 6220.0 profit: -1.113 volumn: 161506 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:21:23 093240 price: 6200.0 profit: -1.431 volumn: 167695 diff: 6189.0 traffic: 3.83718 up:0 down: 1 [true, true, false, true, false, false, false, false, false, true, false, false, true]
+
+check 14:21:58 093240 price: 6190.0 profit: -1.59 volumn: 169352 diff: 1657.0 traffic: 1.025683 up:0 down: 2 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:22:33 093240 price: 6210.0 profit: -1.272 volumn: 169406 diff: 54.0 traffic: 0.033534 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 14:23:9 093240 price: 6210.0 profit: -1.272 volumn: 169416 diff: 10.0 traffic: 0.00621 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:23:44 093240 price: 6210.0 profit: -1.272 volumn: 169416 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:24:19 093240 price: 6210.0 profit: -1.272 volumn: 169416 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:24:54 093240 price: 6210.0 profit: -1.272 volumn: 169422 diff: 6.0 traffic: 0.003726 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:25:29 093240 price: 6210.0 profit: -1.272 volumn: 169422 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:26:4 093240 price: 6210.0 profit: -1.272 volumn: 169422 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:26:39 093240 price: 6210.0 profit: -1.272 volumn: 169422 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:27:15 093240 price: 6210.0 profit: -1.272 volumn: 169452 diff: 30.0 traffic: 0.01863 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:27:50 093240 price: 6210.0 profit: -1.272 volumn: 169573 diff: 121.0 traffic: 0.075141 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:28:25 093240 price: 6210.0 profit: -1.272 volumn: 169574 diff: 1.0 traffic: 6.21E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:29:0 093240 price: 6210.0 profit: -1.272 volumn: 169574 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:29:35 093240 price: 6200.0 profit: -1.431 volumn: 169595 diff: 21.0 traffic: 0.01302 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:30:10 093240 price: 6210.0 profit: -1.272 volumn: 169596 diff: 1.0 traffic: 6.21E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 14:30:46 093240 price: 6210.0 profit: -1.272 volumn: 169596 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:31:21 093240 price: 6220.0 profit: -1.113 volumn: 170189 diff: 593.0 traffic: 0.368846 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:31:56 093240 price: 6220.0 profit: -1.113 volumn: 170213 diff: 24.0 traffic: 0.014928 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:32:31 093240 price: 6220.0 profit: -1.113 volumn: 170213 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:33:6 093240 price: 6220.0 profit: -1.113 volumn: 170213 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:33:41 093240 price: 6220.0 profit: -1.113 volumn: 170805 diff: 592.0 traffic: 0.368224 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:34:17 093240 price: 6220.0 profit: -1.113 volumn: 170905 diff: 100.0 traffic: 0.0622 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:34:52 093240 price: 6220.0 profit: -1.113 volumn: 170905 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:35:27 093240 price: 6220.0 profit: -1.113 volumn: 170905 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:36:2 093240 price: 6220.0 profit: -1.113 volumn: 170905 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:36:37 093240 price: 6230.0 profit: -0.954 volumn: 170906 diff: 1.0 traffic: 6.23E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:37:12 093240 price: 6220.0 profit: -1.113 volumn: 170995 diff: 89.0 traffic: 0.055358 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:37:48 093240 price: 6230.0 profit: -0.954 volumn: 171066 diff: 71.0 traffic: 0.044233 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 14:38:23 093240 price: 6220.0 profit: -1.113 volumn: 171280 diff: 214.0 traffic: 0.133108 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:38:58 093240 price: 6220.0 profit: -1.113 volumn: 171832 diff: 552.0 traffic: 0.343344 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:39:33 093240 price: 6220.0 profit: -1.113 volumn: 171854 diff: 22.0 traffic: 0.013684 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:40:8 093240 price: 6210.0 profit: -1.272 volumn: 171910 diff: 56.0 traffic: 0.034776 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:40:43 093240 price: 6210.0 profit: -1.272 volumn: 171910 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:41:19 093240 price: 6220.0 profit: -1.113 volumn: 171913 diff: 3.0 traffic: 0.001866 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 14:41:54 093240 price: 6210.0 profit: -1.272 volumn: 171964 diff: 51.0 traffic: 0.031671 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:42:29 093240 price: 6210.0 profit: -1.272 volumn: 171964 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:43:4 093240 price: 6210.0 profit: -1.272 volumn: 172064 diff: 100.0 traffic: 0.0621 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:43:39 093240 price: 6210.0 profit: -1.272 volumn: 173017 diff: 953.0 traffic: 0.591813 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:44:14 093240 price: 6220.0 profit: -1.113 volumn: 174003 diff: 986.0 traffic: 0.613292 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 14:44:50 093240 price: 6220.0 profit: -1.113 volumn: 174468 diff: 465.0 traffic: 0.28923 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:45:25 093240 price: 6230.0 profit: -0.954 volumn: 174478 diff: 10.0 traffic: 0.00623 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 14:46:0 093240 price: 6230.0 profit: -0.954 volumn: 174478 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:46:35 093240 price: 6220.0 profit: -1.113 volumn: 174891 diff: 413.0 traffic: 0.256886 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:47:10 093240 price: 6220.0 profit: -1.113 volumn: 174941 diff: 50.0 traffic: 0.0311 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:47:45 093240 price: 6220.0 profit: -1.113 volumn: 174941 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:48:21 093240 price: 6220.0 profit: -1.113 volumn: 174941 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:48:56 093240 price: 6210.0 profit: -1.272 volumn: 174942 diff: 1.0 traffic: 6.21E-4 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:49:31 093240 price: 6220.0 profit: -1.113 volumn: 174943 diff: 1.0 traffic: 6.22E-4 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 14:50:6 093240 price: 6220.0 profit: -1.113 volumn: 174944 diff: 1.0 traffic: 6.22E-4 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:50:41 093240 price: 6220.0 profit: -1.113 volumn: 174944 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:51:16 093240 price: 6220.0 profit: -1.113 volumn: 175527 diff: 583.0 traffic: 0.362626 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:51:52 093240 price: 6210.0 profit: -1.272 volumn: 177527 diff: 2000.0 traffic: 1.242 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 14:52:27 093240 price: 6210.0 profit: -1.272 volumn: 177527 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:53:2 093240 price: 6210.0 profit: -1.272 volumn: 177527 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:53:37 093240 price: 6210.0 profit: -1.272 volumn: 177527 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:54:12 093240 price: 6210.0 profit: -1.272 volumn: 178711 diff: 1184.0 traffic: 0.735264 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:54:47 093240 price: 6210.0 profit: -1.272 volumn: 179202 diff: 491.0 traffic: 0.304911 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:55:23 093240 price: 6220.0 profit: -1.113 volumn: 180203 diff: 1001.0 traffic: 0.622622 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 14:55:58 093240 price: 6210.0 profit: -1.272 volumn: 180333 diff: 130.0 traffic: 0.08073 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:56:33 093240 price: 6220.0 profit: -1.113 volumn: 182333 diff: 2000.0 traffic: 1.244 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 14:57:8 093240 price: 6220.0 profit: -1.113 volumn: 182333 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 14:57:43 093240 price: 6220.0 profit: -1.113 volumn: 182333 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:58:18 093240 price: 6220.0 profit: -1.113 volumn: 182333 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 14:58:53 093240 price: 6220.0 profit: -1.113 volumn: 182340 diff: 7.0 traffic: 0.004354 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 14:59:29 093240 price: 6210.0 profit: -1.272 volumn: 182435 diff: 95.0 traffic: 0.058995 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:0:4 093240 price: 6210.0 profit: -1.272 volumn: 182435 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:0:39 093240 price: 6210.0 profit: -1.272 volumn: 182435 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 15:1:14 093240 price: 6220.0 profit: -1.113 volumn: 182436 diff: 1.0 traffic: 6.22E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 15:1:49 093240 price: 6220.0 profit: -1.113 volumn: 182471 diff: 35.0 traffic: 0.02177 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:2:25 093240 price: 6220.0 profit: -1.113 volumn: 182481 diff: 10.0 traffic: 0.00622 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:3:0 093240 price: 6210.0 profit: -1.272 volumn: 183081 diff: 600.0 traffic: 0.3726 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:3:35 093240 price: 6210.0 profit: -1.272 volumn: 183081 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:4:10 093240 price: 6210.0 profit: -1.272 volumn: 183081 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, false, false, false, false, false, false, false, false, false, false, false]
+
+check 15:4:45 093240 price: 6230.0 profit: -0.954 volumn: 184081 diff: 1000.0 traffic: 0.623 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 15:5:20 093240 price: 6230.0 profit: -0.954 volumn: 184084 diff: 3.0 traffic: 0.001869 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:5:56 093240 price: 6230.0 profit: -0.954 volumn: 185084 diff: 1000.0 traffic: 0.623 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:6:31 093240 price: 6230.0 profit: -0.954 volumn: 185439 diff: 355.0 traffic: 0.221165 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:7:6 093240 price: 6230.0 profit: -0.954 volumn: 185489 diff: 50.0 traffic: 0.03115 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:7:41 093240 price: 6230.0 profit: -0.954 volumn: 185489 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:8:16 093240 price: 6220.0 profit: -1.113 volumn: 185589 diff: 100.0 traffic: 0.0622 up:0 down: 1 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 15:8:51 093240 price: 6220.0 profit: -1.113 volumn: 185589 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:9:27 093240 price: 6230.0 profit: -0.954 volumn: 185590 diff: 1.0 traffic: 6.23E-4 up:1 down: 0 [true, true, false, true, false, false, false, false, false, false, true, false, false]
+
+check 15:10:2 093240 price: 6220.0 profit: -1.113 volumn: 185596 diff: 6.0 traffic: 0.003732 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:10:37 093240 price: 6220.0 profit: -1.113 volumn: 185596 diff: 0.0 traffic: 0.0 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:11:12 093240 price: 6220.0 profit: -1.113 volumn: 185796 diff: 200.0 traffic: 0.1244 up:0 down: 0 [true, true, false, true, false, false, false, false, false, false, false, false, false]
+
+check 15:11:47 093240 price: 6220.0 profit: -1.113 volumn: 185798 diff: 2.0 traffic: 0.001244 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:12:22 093240 price: 6230.0 profit: -0.954 volumn: 188000 diff: 2202.0 traffic: 1.371846 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 15:12:58 093240 price: 6240.0 profit: -0.795 volumn: 188010 diff: 10.0 traffic: 0.00624 up:2 down: 0 [true, true, true, false, false, false, false, true, false, false, true, false, false]
+
+check 15:13:33 093240 price: 6230.0 profit: -0.954 volumn: 188315 diff: 305.0 traffic: 0.190015 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:14:8 093240 price: 6230.0 profit: -0.954 volumn: 188329 diff: 14.0 traffic: 0.008722 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:14:43 093240 price: 6240.0 profit: -0.795 volumn: 188489 diff: 160.0 traffic: 0.09984 up:1 down: 0 [true, true, true, true, false, false, false, false, false, false, true, false, false]
+
+check 15:15:18 093240 price: 6240.0 profit: -0.795 volumn: 189273 diff: 784.0 traffic: 0.489216 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:15:53 093240 price: 6230.0 profit: -0.954 volumn: 189747 diff: 474.0 traffic: 0.295302 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:16:29 093240 price: 6230.0 profit: -0.954 volumn: 189778 diff: 31.0 traffic: 0.019313 up:0 down: 0 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:17:4 093240 price: 6220.0 profit: -1.113 volumn: 189789 diff: 11.0 traffic: 0.006842 up:0 down: 1 [true, true, true, false, false, false, false, false, false, false, false, false, false]
+
+check 15:17:39 093240 price: 6220.0 profit: -1.113 volumn: 190338 diff: 549.0 traffic: 0.341478 up:0 down: 0 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:18:14 093240 price: 6230.0 profit: -0.954 volumn: 190353 diff: 15.0 traffic: 0.009345 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+
+check 15:18:49 093240 price: 6240.0 profit: -0.795 volumn: 190681 diff: 328.0 traffic: 0.204672 up:2 down: 0 [true, true, true, true, false, false, false, true, false, false, true, false, false]
+
+check 15:19:24 093240 price: 6210.0 profit: -1.272 volumn: 192061 diff: 1380.0 traffic: 0.85698 up:0 down: 1 [true, true, true, true, false, false, false, false, false, false, false, false, false]
+
+check 15:20:0 093240 price: 6240.0 profit: -0.795 volumn: 192071 diff: 10.0 traffic: 0.00624 up:1 down: 0 [true, true, true, false, false, false, false, false, false, false, true, false, false]
+

@@ -144,7 +144,6 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(tradeSymbol.preDiffVolumn < diff);
 			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
 			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
-//			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
 			checkArray.add(tradeSymbol.isMinus == false);
 			checkArray.add(2 <= tradeSymbol.up && tradeSymbol.up <= 5);
 			checkArray.add(2 < currentProfit && currentProfit < 6);
@@ -152,6 +151,7 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(diffProfit >= 3);
 			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
 			checkArray.add(((currentPrice * diff) / 10000000) > 2);
+//			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
 //			checkArray.add((Integer.parseInt(preVolume) *  buyPrice / 10000000) > 1000);
 
 			boolean isBuyStatus = true;
@@ -170,7 +170,7 @@ public class CalcutatorProfitFromTxt {
 //						" preMaxProfit: " + (tradeSymbol.preMaxProfit < currentPrice) +
 //						" isMinus: " + (tradeSymbol.isMinus == false);
 				buyData = data.get(0) + " price: " + currentPrice + " profit: " + currentProfit + " volumn: " + currentVolumn + " up: " + tradeSymbol.up + " currentProfit: "
-						+ currentProfit + " diff: " + (currentPrice * diff) / 10000000 +" diffValue: " + diffValue+ " diffProfit: " + diffProfit + "preVolumn: " + (Integer.parseInt(preVolume) *  buyPrice / 10000000);
+						+ currentProfit + " diff: " + (currentPrice * diff) / 10000000 +" diffValue: " + diffValue+ " diffProfit: " + diffProfit + " preVolumn: " + (Integer.parseInt(preVolume) *  buyPrice / 10000000);
 			}
 			tradeSymbol.preDiffVolumn = diff;
 			tradeSymbol.preRealTimePrice = currentPrice;

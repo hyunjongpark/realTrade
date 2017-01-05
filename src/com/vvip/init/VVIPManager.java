@@ -39,8 +39,8 @@ public class VVIPManager {
 	public final static double checkProfit = 0;
 
 	public static double rangeStartPrice = 2000;
-	public static double rangeEndPrice = 30000;
-	public static double buyPrice = 30000;
+	public static double rangeEndPrice = 200000;
+	public static double buyPrice = rangeEndPrice;
 	public static double sellPercentByBuyPrice = 1.3;
 
 	public static int startTradeDay = 20150101;
@@ -57,8 +57,9 @@ public class VVIPManager {
 	private final static int CASE_50_TRADE = 9;
 	private final static int CASE_CHART = 10;
 	private final static int CASE_PROFIT = 11;
+	private final static int CASE_UPDATE = 12;
 
-	private final static int selectedMode = CASE_PROFIT;
+	private final static int selectedMode = CASE_RunMode;
 
 	public static void main(String[] args) {
 		switch (selectedMode) {
@@ -82,13 +83,16 @@ public class VVIPManager {
 			}
 			break;
 		}
+		case CASE_UPDATE: {
+			UpdateKoreaQuote.main(null);
+			break;
+		}
 		case CASE_PROFIT: {
 			CalcutatorProfitFromTxt ttt = new CalcutatorProfitFromTxt();
 			ttt.run();
 			break;
 		}
 		case CASE_RunMode: {
-//			 UpdateKoreaQuote.main(null);
 			ServerManager.startVVIPManagerThread();
 			break;
 		}
