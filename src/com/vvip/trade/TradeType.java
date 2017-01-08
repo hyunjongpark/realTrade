@@ -11,9 +11,9 @@ import com.vvip.init.VVIPManager;
 
 public class TradeType {
 	public static String tomorrowTrade_path = VVIPManager.getVVIP_PATH() + "/tomorrowTrade/tomorrowTrade.txt";
-	public static String tomorrowTrade_copy_path = VVIPManager.getVVIP_PATH() + "/tomorrowTrade/tomorrowTrade_"+CommonUtil.getTodayName()+".txt";
-	public static String trade_path = VVIPManager.getVVIP_PATH() + "/buy/" + "buy_" + CommonUtil.getTodayName() + "_trade.txt";
-	public static String buy_path = VVIPManager.getVVIP_PATH() + "/buy/" + "buy_" + CommonUtil.getTodayName() + ".txt";
+	public static String tomorrowTrade_copy_path = VVIPManager.getVVIP_PATH() + "/tomorrowTrade/tomorrowTrade_"+CommonUtil.getTodayName()+"";
+	public static String trade_path = VVIPManager.getVVIP_PATH() + "/buy/" + "buy_" + CommonUtil.getTodayName() + "_trade";
+	public static String buy_path = VVIPManager.getVVIP_PATH() + "/buy/" + "buy_" + CommonUtil.getTodayName() + "";
 	public static String BUY_TRUE = "BUY_TRUE";
 	public static String FIRST_DOWN_PRICE = "FIRST_DOWN_PRICE";
 	public static String SELL_TRUE = "SELL_TRUE";

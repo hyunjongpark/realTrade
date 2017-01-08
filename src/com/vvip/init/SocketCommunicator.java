@@ -290,7 +290,7 @@ public class SocketCommunicator implements Runnable {
                                         continue;
                                     }
 //                                    if (sell.symbol.equals(type.symbol) && CommonUtil.getPecentPrice(tradeSymbol.yesterClosePrice, 0) > type.currentPrice) {
-                                    if (sell.symbol.equals(type.symbol) && type.profit < -1) {
+                                    if (sell.symbol.equals(type.symbol) && type.profit < VVIPManager.minusSellPercentByBuyPrice) {
                                         removeSellOrderList.add(sell);
                                         getTradeCommunicator().requestModifyTrade(type.symbol, Integer.toString(type.buyCount), Double.toString(type.currentPrice), sell.number);
                                         try {
@@ -397,8 +397,8 @@ public class SocketCommunicator implements Runnable {
     			checkArray.add(tradeSymbol.preRealTimeVolumn != 0);
     			checkArray.add(tradeSymbol.preDiffVolumn != 0);
     			checkArray.add(tradeSymbol.preDiffVolumn < diff);
-    			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
-    			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
+//    			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
+//    			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
     			checkArray.add(tradeSymbol.isMinus == false);
     			checkArray.add(2 <= tradeSymbol.up && tradeSymbol.up <= 5);
     			checkArray.add(2 < currentProfit && currentProfit < 6);
@@ -407,7 +407,7 @@ public class SocketCommunicator implements Runnable {
     			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
     			checkArray.add(((currentPrice * diff) / 10000000) > 2);
 //    			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-//    			checkArray.add((Integer.parseInt(preVolume) *  buyPrice / 10000000) > 1000);
+//    			checkArray.add((Integer.parseInt(preVolume) *  currentPrice / 10000000) > 1);
 
                 boolean isBuyStatus = true;
                 for (int i = 0; i < checkArray.size(); i++) {

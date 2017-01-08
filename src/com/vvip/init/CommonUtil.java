@@ -230,7 +230,7 @@ public class CommonUtil {
 			message += "\n";
 			FileWriter writer;
 			try {
-				writer = new FileWriter(filePath, true);
+				writer = new FileWriter(filePath + ".txt", true);
 				BufferedWriter bwriter = new BufferedWriter(writer);
 				bwriter.write(message);
 				bwriter.close();

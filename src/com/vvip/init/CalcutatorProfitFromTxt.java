@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CalcutatorProfitFromTxt {
 	double sumProfit = 0.0;
@@ -108,9 +109,16 @@ public class CalcutatorProfitFromTxt {
 			double currentPrice = Double.parseDouble(data.get(1));
 			double currentProfit = Double.parseDouble(data.get(2));
 			double currentVolumn = Double.parseDouble(data.get(3));
-			if (buyProfit > 0) {
-				maxProfitAfterBuy = Math.max(maxProfitAfterBuy, currentProfit);
-				minProfitAfterBuy = Math.min(minProfitAfterBuy, currentProfit);
+			if (tradeSymbol.isBuyOrder && isSucces11 == false) {
+				double p = (currentPrice - buyPrice) / buyPrice * 100;
+				minProfitAfterBuy = Math.min(minProfitAfterBuy, p);
+//				System.out.println("buyPrice: " + buyPrice + " currentPrice: " + currentPrice  + " dd: " +p );
+				
+			}
+			if (tradeSymbol.isBuyOrder) {
+				double p = (currentPrice - buyPrice) / buyPrice * 100;
+				maxProfitAfterBuy = Math.max(maxProfitAfterBuy, p);
+//				System.out.println("buyPrice: " + buyPrice + " currentPrice: " + currentPrice  + " dd: " +p );
 			}
 			if (buyProfit > 0 && currentProfit >= buyProfit + VVIPManager.sellPercentByBuyPrice) {
 				isSucces11 = true;
@@ -142,8 +150,8 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(tradeSymbol.preRealTimeVolumn != 0);
 			checkArray.add(tradeSymbol.preDiffVolumn != 0);
 			checkArray.add(tradeSymbol.preDiffVolumn < diff);
-			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
-			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
+//			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
+//			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
 			checkArray.add(tradeSymbol.isMinus == false);
 			checkArray.add(2 <= tradeSymbol.up && tradeSymbol.up <= 5);
 			checkArray.add(2 < currentProfit && currentProfit < 6);
@@ -152,7 +160,7 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
 			checkArray.add(((currentPrice * diff) / 10000000) > 2);
 //			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
-//			checkArray.add((Integer.parseInt(preVolume) *  buyPrice / 10000000) > 1000);
+//			checkArray.add((Integer.parseInt(preVolume) *  currentPrice / 10000000) > 1);
 
 			boolean isBuyStatus = true;
 			for (int i = 0; i < checkArray.size(); i++) {
@@ -175,7 +183,7 @@ public class CalcutatorProfitFromTxt {
 			tradeSymbol.preDiffVolumn = diff;
 			tradeSymbol.preRealTimePrice = currentPrice;
 			tradeSymbol.preRealTimeVolumn = currentVolumn;
-			if (diff == 0) {
+			if (diff == 0 ) {
 				tradeSymbol.isDiffVolumnZero = true;
 			}
 			if (((currentPrice * diff) / 10000000) < 1) {
@@ -194,11 +202,11 @@ public class CalcutatorProfitFromTxt {
 			if (isSucces11) {
 				nS++;
 				System.out.println(preVolume + " : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + " success: " + readPath + " " + buyData);
-				 System.out.println("-----------min: " + minProfitAfterBuy + " max: " + String.format("%.2f", (maxProfitAfterBuy - buyProfit)) + " close: "+ (Double.parseDouble(dataList.get(dataList.size() -1).get(2)) - buyProfit));
+				 System.out.println("-----------min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: "+ (Double.parseDouble(dataList.get(dataList.size() -1).get(2)) - buyProfit));
 			} else {
 				nF++;
 				System.out.println(preVolume + " : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + " fail: " + readPath + " " + buyData);
-				 System.out.println("---------- min: " + minProfitAfterBuy + " max: " + (maxProfitAfterBuy - buyProfit) + " close: " + (Double.parseDouble(dataList.get(dataList.size() - 1).get(2)) -buyProfit));
+				 System.out.println("---------- min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: " + (Double.parseDouble(dataList.get(dataList.size() - 1).get(2)) -buyProfit));
 				// for (int i = 0; i < quoteList.getSize(); i++) {
 				// if (quoteList.getQuote(i).getTradeDate().toInt() > date) {
 				// if (getPriceOfPercentage(buyPrice, sellProfit) <
