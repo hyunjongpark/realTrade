@@ -255,14 +255,42 @@ public class SocketCommunicator implements Runnable {
             }
 
             if (mHour >= 15 && mMinute >= 20) {
+            	// 장 종료 전에 오늘 산 종목중 못 판 종목에 대해서는 매도한다.
+    			if (todayBuyList.size() > 0) {
+    				List<String> removeBuyList = new ArrayList<String>();
+    				for (String ss : todayBuyList) {
+    					for (TradeType type : bankList) {
+    						if (type.symbol.equals(ss)) {
+    							if (type.profit < 0) {
+    								for (int t = 0; t < todaySymbolList.size(); t++) {
+    									TodayRealTimeSymbolType tradeSymbol = todaySymbolList.get(t);
+    									if (type.symbol.equals(tradeSymbol.symbol) && tradeSymbol.isSellOrder == false) {
+    										tradeSymbol.isSellOrder = true;
+    										removeBuyList.add(tradeSymbol.symbol);
+
+    										String n = orderSellToClient(type.symbol, type.buyCount, (int)type.buyPrice);
+    										CommonUtil.writeToFile(TradeType.trade_path, "last Sell order " + mHour + ":" + mMinute + " " + type.symbol + " price: " + type.currentPrice + " count: "
+    												+ Integer.toString(type.buyCount) + " num : " + n + "\n");
+    										sellOrderList.add(new SellOrder(type.symbol, n, mHour, mMinute));
+    										try {
+    											Thread.sleep(5000);
+    										} catch (InterruptedException e) {
+    											e.printStackTrace();
+    										}
+    									}
+    								}
+    							}
+    						}
+    					}
+    				}
+    				todayBuyList.removeAll(removeBuyList);
+    			}
                 System.out.println("END Trade");
                 isContinue = false;
             }
 
             if (sellOrderList.size() > 0) {
-                // 전날 보다 더 떨어지면 시장가로 매도 주문
                 try {
-                    // 매수한 종목이 매도되었는지 체크
                     List<SellOrder> removeSellOrderList = new ArrayList<SellOrder>();
                     for (SellOrder sell : sellOrderList) {
                         boolean isFinishSell = true;
@@ -280,7 +308,7 @@ public class SocketCommunicator implements Runnable {
                     }
                     removeSellOrderList.clear();
 
-                    // 당일 매수한 종목 중 매도 안된 종목이 전말 보다 떨어지면 매도 주문
+                    // 마이너스 profit 아래이면 현재 가격으로 매도 주문
                     for (SellOrder sell : sellOrderList) {
                         for (TradeType type : bankList) {
                             if (type.symbol.equals(sell.symbol)) {
@@ -298,7 +326,7 @@ public class SocketCommunicator implements Runnable {
                                         } catch (InterruptedException e) {
                                             e.printStackTrace();
                                         }
-                                        CommonUtil.writeToFile(TradeType.trade_path, " minus Sell " + mHour + ":" + mMinute + ":" + mSecond + " " + type.symbol + " price: " + type.currentPrice
+                                        CommonUtil.writeToFile(TradeType.trade_path, " Minus Sell " + mHour + ":" + mMinute + ":" + mSecond + " " + type.symbol + " price: " + type.currentPrice
                                                 + " count: " + Integer.toString(type.buyCount) + " tradeSymbol.yesterClosePrice: " + tradeSymbol.yesterClosePrice + " num : " + sell.number + "\n");
                                     }
                                 }
@@ -312,35 +340,39 @@ public class SocketCommunicator implements Runnable {
                     System.out.println(e);
                 }
             }
+            
+            //
 
-            // 매수 한 종목은 바로 0.8% 올셔서 매도주문
-            if (todayBuyList.size() > 0) {
-                List<String> removeBuyList = new ArrayList<String>();
-                for (String ss : todayBuyList) {
-                    for (TradeType type : bankList) {
-                        if (type.symbol.equals(ss)) {
-                            for (int t = 0; t < todaySymbolList.size(); t++) {
-                                TodayRealTimeSymbolType tradeSymbol = todaySymbolList.get(t);
-                                if (type.symbol.equals(tradeSymbol.symbol) && tradeSymbol.isSellOrder == false) {
-                                    tradeSymbol.isSellOrder = true;
-                                    removeBuyList.add(tradeSymbol.symbol);
+			// 매수 한 종목이 마이너스 profit일때 매도주문을 건다
+			if (todayBuyList.size() > 0) {
+				List<String> removeBuyList = new ArrayList<String>();
+				for (String ss : todayBuyList) {
+					for (TradeType type : bankList) {
+						if (type.symbol.equals(ss)) {
+							if (type.profit < 0) {
+								for (int t = 0; t < todaySymbolList.size(); t++) {
+									TodayRealTimeSymbolType tradeSymbol = todaySymbolList.get(t);
+									if (type.symbol.equals(tradeSymbol.symbol) && tradeSymbol.isSellOrder == false) {
+										tradeSymbol.isSellOrder = true;
+										removeBuyList.add(tradeSymbol.symbol);
 
-                                    String n = orderSellToClient(type.symbol, type.buyCount, CommonUtil.getPecentPrice(type.buyPrice, VVIPManager.sellPercentByBuyPrice));
-                                    CommonUtil.writeToFile(TradeType.trade_path, "Sell order " + mHour + ":" + mMinute + " " + type.symbol + " price: " + type.currentPrice + " count: "
-                                            + Integer.toString(type.buyCount) + " num : " + n + "\n");
-                                    sellOrderList.add(new SellOrder(type.symbol, n, mHour, mMinute));
-                                    try {
-                                        Thread.sleep(5000);
-                                    } catch (InterruptedException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                todayBuyList.removeAll(removeBuyList);
-            }
+										String n = orderSellToClient(type.symbol, type.buyCount, CommonUtil.getPecentPrice(type.buyPrice, VVIPManager.sellPercentByBuyPrice));
+										CommonUtil.writeToFile(TradeType.trade_path, "Sell order " + mHour + ":" + mMinute + " " + type.symbol + " price: " + type.currentPrice + " count: "
+												+ Integer.toString(type.buyCount) + " num : " + n + "\n");
+										sellOrderList.add(new SellOrder(type.symbol, n, mHour, mMinute));
+										try {
+											Thread.sleep(5000);
+										} catch (InterruptedException e) {
+											e.printStackTrace();
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				todayBuyList.removeAll(removeBuyList);
+			}
 
             List<Quote> quoteList = requestPrice(todaySymbolList);
             for (int t = 0; t < todaySymbolList.size(); t++) {
@@ -397,8 +429,8 @@ public class SocketCommunicator implements Runnable {
     			checkArray.add(tradeSymbol.preRealTimeVolumn != 0);
     			checkArray.add(tradeSymbol.preDiffVolumn != 0);
     			checkArray.add(tradeSymbol.preDiffVolumn < diff);
-//    			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
-//    			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
+    			checkArray.add(tradeSymbol.isDiffVolumnZero == false);
+    			checkArray.add(tradeSymbol.isDiffVolumn1Down == false);
     			checkArray.add(tradeSymbol.isMinus == false);
     			checkArray.add(2 <= tradeSymbol.up && tradeSymbol.up <= 5);
     			checkArray.add(2 < currentProfit && currentProfit < 6);
