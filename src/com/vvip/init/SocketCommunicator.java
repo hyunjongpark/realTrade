@@ -349,7 +349,7 @@ public class SocketCommunicator implements Runnable {
 				for (String ss : todayBuyList) {
 					for (TradeType type : bankList) {
 						if (type.symbol.equals(ss)) {
-							if (type.profit < 0) {
+//							if (type.profit < 0) {
 								for (int t = 0; t < todaySymbolList.size(); t++) {
 									TodayRealTimeSymbolType tradeSymbol = todaySymbolList.get(t);
 									if (type.symbol.equals(tradeSymbol.symbol) && tradeSymbol.isSellOrder == false) {
@@ -365,7 +365,7 @@ public class SocketCommunicator implements Runnable {
 										} catch (InterruptedException e) {
 											e.printStackTrace();
 										}
-									}
+//									}
 								}
 							}
 						}

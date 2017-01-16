@@ -206,11 +206,11 @@ public class CalcutatorProfitFromTxt {
 		if (buyProfit != 0) {
 			if (isSucces11) {
 				nS++;
-//				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t success: " + readPath + " " + buyData);
+				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t success: " + readPath + " " + buyData);
 				 System.out.println("-----------min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: "+ (Double.parseDouble(dataList.get(dataList.size() -1).get(2)) - buyProfit));
 			} else {
 				nF++;
-//				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t fail: " + readPath + " " + buyData);
+				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t fail: " + readPath + " " + buyData);
 				 System.out.println("---------- min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: " + (Double.parseDouble(dataList.get(dataList.size() - 1).get(2)) -buyProfit));
 				// for (int i = 0; i < quoteList.getSize(); i++) {
 				// if (quoteList.getQuote(i).getTradeDate().toInt() > date) {
