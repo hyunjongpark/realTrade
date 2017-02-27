@@ -38,11 +38,11 @@ public class VVIPManager {
 	public final static double checkPlusSellProfit = 10000;
 	public final static double checkProfit = 0;
 
-	public static double rangeStartPrice = 2000;
-	public static double rangeEndPrice = 200000;
+	public static double rangeStartPrice = 1000;
+	public static double rangeEndPrice = 1000000;
 	public static double buyPrice = rangeEndPrice;
 	public static double sellPercentByBuyPrice = 1.3;
-	public static double minusSellPercentByBuyPrice = -0.7;
+	public static double minusSellPercentByBuyPrice = -1.0;
 
 	public static int startTradeDay = 20150101;
 	public static int endTradeDay = 99999999;
@@ -59,6 +59,7 @@ public class VVIPManager {
 	private final static int CASE_CHART = 10;
 	private final static int CASE_PROFIT = 11;
 	private final static int CASE_UPDATE = 12;
+	private final static int CASE_UPDATE_KOSPI = 13;
 
 	private final static int selectedMode = CASE_RunMode;
 
@@ -82,6 +83,10 @@ public class VVIPManager {
 				}
 
 			}
+			break;
+		}
+		case CASE_UPDATE_KOSPI: {
+			CommonUtil.getKospi500();
 			break;
 		}
 		case CASE_UPDATE: {

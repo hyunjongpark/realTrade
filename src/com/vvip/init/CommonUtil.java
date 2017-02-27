@@ -1,15 +1,22 @@
 package com.vvip.init;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 
@@ -151,7 +158,8 @@ public class CommonUtil {
 				// int lastMacdGeneTime =
 				// DatabaseManager.getMacdGeneEndTime(symbol);
 				// if (lastMacdGeneTime == 0) {
-				// System.out.println(i+" : symbol : "+symbol+" lastMacdGeneTime : "+lastMacdGeneTime);
+				// System.out.println(i+" : symbol : "+symbol+" lastMacdGeneTime
+				// : "+lastMacdGeneTime);
 				// continue;
 				// }
 				if (isPastMacdEndTime(symbol)) {
@@ -177,8 +185,8 @@ public class CommonUtil {
 		QuoteList quoteList = DatabaseManager.selectQuoteListByDate(symbol, Integer.parseInt(getLastTradedayName()), Integer.parseInt(getLastTradedayName()));
 
 		if (null == quoteList) {
-		//	System.out.println("delete symbol " + symbol);
-		//	removeSymbol.add(symbol);
+			// System.out.println("delete symbol " + symbol);
+			// removeSymbol.add(symbol);
 			return true;
 		}
 
@@ -194,20 +202,22 @@ public class CommonUtil {
 			return 0;
 		}
 		int dbSize = quoteList.getSize();
-//		System.out.println("getYesterDayPrice: "  + quoteList.getQuote(dbSize - 1).getTradeDate().toInt() + " symbol: " +symbol + " price: " +quoteList.getQuote(dbSize - 1).getClose());
+		// System.out.println("getYesterDayPrice: " + quoteList.getQuote(dbSize
+		// - 1).getTradeDate().toInt() + " symbol: " +symbol + " price: "
+		// +quoteList.getQuote(dbSize - 1).getClose());
 		return (int) quoteList.getQuote(dbSize - 1).getClose();
 	}
 
 	public static int getBuyCount(int stockPrice) {
-//		int stockPrice = getYesterDayPrice(symbol);
-//		boolean isKospy = DatabaseManager.isKospySymbol(symbol);
+		// int stockPrice = getYesterDayPrice(symbol);
+		// boolean isKospy = DatabaseManager.isKospySymbol(symbol);
 		int maxPrice = (int) VVIPManager.buyPrice;
 		int stepUnit = 1;
-//		if (isKospy == true && stockPrice > 50000) {
-//			stepUnit = 10;
-//		} else {
-//			stepUnit = 1;
-//		}
+		// if (isKospy == true && stockPrice > 50000) {
+		// stepUnit = 10;
+		// } else {
+		// stepUnit = 1;
+		// }
 		int buyCount = 0;
 		int buyPrice = 0;
 		while (true) {
@@ -289,7 +299,7 @@ public class CommonUtil {
 		}
 		return dataList;
 	}
-	
+
 	public static void insertQuoteKorea() {
 
 		System.out.println("insertQuoteKorea");
@@ -302,7 +312,7 @@ public class CommonUtil {
 			System.out.println(i + 1 + "/" + companyList.size());
 			try {
 				String updateSymbol = companyList.get(i).getSymbol();
-				if(!CommonUtil.isVaildSymbol(updateSymbol)){
+				if (!CommonUtil.isVaildSymbol(updateSymbol)) {
 					continue;
 				}
 				totalCount++;
@@ -317,19 +327,19 @@ public class CommonUtil {
 				if (dbSize != 0) {
 					filterDate = quoteList.getQuote(dbSize - 1).getTradeDate();
 				}
-				
+
 				if (dbSize < 250) {
-					 filterDate = null;
+					filterDate = null;
 				}
-				
+
 				quoteList = ImportDaumQuote.importData(companyList.get(i).getSymbol(), filterDate);
-				
+
 				if (null == quoteList) {
 					continue;
 				}
 				count++;
 				System.out.println("updateSymbol : " + updateSymbol + " size : " + quoteList.getSize());
-				
+
 				ta = new TechnicalAnalysis(quoteList.getList(), 0);
 				ta.setTaPattern();
 				DatabaseManager.insertQuoteListToSymbol(quoteList, companyList.get(i).getSymbol());
@@ -339,26 +349,174 @@ public class CommonUtil {
 			}
 
 		}
-		
+
 		System.out.println((new Date()).toString() + " count : " + count + "/" + totalCount);
 	}
-	
-	public static int getVaildSymbolCount(){
+
+	public static int getVaildSymbolCount() {
 		int returnCount = 0;
 		ArrayList<Company> companyList = VVIPManager.getCompanyList();
 		for (int i = 0; i < companyList.size(); i++) {
 			String symbol = companyList.get(i).getSymbol();
-			if(!CommonUtil.isVaildSymbol(symbol)){
+			if (!CommonUtil.isVaildSymbol(symbol)) {
 				continue;
 			}
 			List<GeneResult> dbGRList = DatabaseManager.getGeneBySymbol(symbol);
-			if(dbGRList.size() == 0){
+			if (dbGRList.size() == 0) {
 				continue;
 			}
 			returnCount++;
-			System.out.println("Check Trade Symbol  : " +  symbol +  " Count : " + returnCount + " profit : " +  dbGRList.get(0).getGene().getProfit());
+			System.out.println("Check Trade Symbol  : " + symbol + " Count : " + returnCount + " profit : " + dbGRList.get(0).getGene().getProfit());
 
 		}
 		return returnCount;
+	}
+
+	static boolean isPEROK(String symbol) {
+		String URLString = "http://finance.naver.com/item/main.nhn?code=" + symbol;
+		double per = 0;
+		double perAll = 0;
+		// boolean isTradeInfo = false;
+		try {
+			URL url = new URL(URLString);
+			URLConnection connection = url.openConnection();
+			connection.setConnectTimeout(5000);
+			connection.setReadTimeout(5000);
+
+			InputStreamReader input = new InputStreamReader(connection.getInputStream());
+
+			BufferedReader bufferedInput = new BufferedReader(input);
+
+			String line = null;
+			while ((line = bufferedInput.readLine()) != null) {
+				if (line.indexOf("<span class=\"f_up\"><em>") != -1) {
+					// System.out.println(line);
+					// isTradeInfo = true;
+				}
+				if (line.indexOf("</em>πË") != -1) {
+					if (line.indexOf("em id=\"_per") != -1) {
+						String[] a = line.split(">");
+						String[] b = a[1].split("<");
+						per = Double.parseDouble(b[0]);
+					} else if (line.indexOf("id") == -1) {
+						String[] a = line.split(">");
+						String[] b = a[1].split("<");
+						perAll = Double.parseDouble(b[0]);
+					}
+					// System.out.println(line);
+				}
+			}
+			bufferedInput.close();
+			input.close();
+
+		} catch (Exception e) {
+
+		}
+		// System.out.println(perAll / per);
+		double aa = perAll / per;
+		if (aa > 2 && perAll > 0 && per > 0) {
+			return true;
+		} else {
+			return false;
+		}
+		// System.out.println(URLString + " per: " + per + " perAll: " +
+		// perAll);
+		// return perAll / per;
+	}
+
+	static void getKospi500() {
+
+		HashSet<String> symbolList = new HashSet<String>();
+		
+		for (int i = 1; i < 2; i++) {
+
+			String URLString = "http://finance.daum.net/quote/marketvalue.daum?stype=P&page=" + String.valueOf(i) + "&col=listprice&order=desc";
+			System.out.println(URLString);
+
+			try {
+				URL url = new URL(URLString);
+				URLConnection connection = url.openConnection();
+				connection.setConnectTimeout(5000);
+				connection.setReadTimeout(5000);
+
+				InputStreamReader input = new InputStreamReader(connection.getInputStream());
+
+				BufferedReader bufferedInput = new BufferedReader(input);
+
+				String line = null;
+				while ((line = bufferedInput.readLine()) != null) {
+					 System.out.println(line);
+					 
+//					 <a href="/item/main.daum?code=005930" title="?ñº6,000|-0.31%" target="_top">?Çº?Ñ±?†Ñ?ûê</a>
+					 
+					if (line.indexOf("class=\"txt\"") != -1) {
+						continue;
+					}
+					if (line.indexOf("linkVals") != -1) {
+						continue;
+					}
+					
+					
+					if (line.indexOf("code=") != -1) {
+						
+						String temp = line.trim();
+//						if (line.indexOf("code=") != -1) {
+//							String[] a = line.split("code=");
+//							String[] b = a[1].split("\"");
+////							System.out.println(b[0]);
+//							if(!b[0].isEmpty()){
+//								symbolList.add(b[0]);
+//							}
+//							
+//						}
+//						System.out.println(temp);
+						System.out.println(temp.substring(30, 36));
+						symbolList.add(temp.substring(30, 36));
+					}
+				}
+				bufferedInput.close();
+				input.close();
+
+			} catch (Exception e) {
+
+			}
+		}
+		
+		System.out.println(symbolList.size() + " " + symbolList);
+	}
+
+	static public String getSource(URL url) {
+		HttpURLConnection connection = null;
+		try {
+			connection = (HttpURLConnection) url.openConnection();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		connection.setDoOutput(true);
+		connection.setDoInput(true);
+		try {
+			connection.getOutputStream().write(42);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		byte[] bytes = new byte[512];
+		try (BufferedInputStream bis = new BufferedInputStream(connection.getInputStream())) {
+			StringBuilder response = new StringBuilder(500);
+			int in;
+			while ((in = bis.read(bytes)) != -1) {
+				response.append(new String(bytes, 0, in));
+				System.out.println(in);
+			}
+			return response.toString().split("\r\n\r\n")[1];
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		;
+		return null;
 	}
 }

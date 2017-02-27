@@ -177,7 +177,7 @@ public class SocketCommunicator implements Runnable {
             if (quoteList.getQuote(quoteList.getSize() - 1).getVolume() < quoteList.getQuote(quoteList.getSize() - 2).getVolume()) {
                 continue;
             }
-
+            
             quoteComp.add(new QuoteComparator(quoteList.getQuote(quoteList.getSize() - 1), symbol));
         }
 
@@ -195,6 +195,14 @@ public class SocketCommunicator implements Runnable {
             TodayRealTimeSymbolType trade = new TodayRealTimeSymbolType(quoteComp.get(i).symbol);
             trade.yesterClosePrice = quoteComp.get(i).quote.getClose();
             trade.preRealTimePrice = trade.yesterClosePrice;
+            
+            String pebCheck = "PEB: True";
+            if(!CommonUtil.isPEROK(quoteComp.get(i).symbol)){
+            	pebCheck = "PEB: False";
+//            	continue;
+			}
+            CommonUtil.writeToFile(TradeType.trade_path + "_" + quoteComp.get(i).symbol, quoteComp.get(i).symbol + ", " + pebCheck);
+            
             returnList.add(trade);
         }
         return returnList;
@@ -687,11 +695,12 @@ public class SocketCommunicator implements Runnable {
     }
 
     private String orderBuyToClient(String symbol, int buyCount, int buyPrice) {
-        if (buyPrice == 0) {
-            return getTradeCommunicator().requestTradeInfo(symbol, Integer.toString(buyCount), true, "0");
-        } else {
-            return getTradeCommunicator().requestTradeInfo(symbol, Integer.toString(buyCount), true, Integer.toString(buyPrice));
-        }
+    	return "test";
+//        if (buyPrice == 0) {
+//            return getTradeCommunicator().requestTradeInfo(symbol, Integer.toString(buyCount), true, "0");
+//        } else {
+//            return getTradeCommunicator().requestTradeInfo(symbol, Integer.toString(buyCount), true, Integer.toString(buyPrice));
+//        }
     }
 
     private String orderSellToClient(String symbol, int count, int price) {

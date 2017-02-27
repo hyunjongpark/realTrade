@@ -15,7 +15,8 @@ public class ImportDaumQuote {
 	private final static String SYMBOL = "_SYM_";
 	private final static String PAGE = "_PAGE_";	
 	private final static String DAUM_PATTERN = "?page=" + PAGE + "&code=" + SYMBOL + "&modify=0";
-	private final static String DAUM_URL_PATTERN = ("http://stock.daum.net/item/quote_yyyymmdd_sub.daum" + DAUM_PATTERN);
+	private final static String DAUM_URL_PATTERN = ("http://finance.daum.net/item/quote_yyyymmdd_sub.daum" + DAUM_PATTERN);
+//	                                                 http://finance.daum.net/item/marketvalue.daum?stype=P&page=2&col=listprice&order=desc
 		
 	public ImportDaumQuote() {
 		assert false;

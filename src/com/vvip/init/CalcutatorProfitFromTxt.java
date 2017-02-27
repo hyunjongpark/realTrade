@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CalcutatorProfitFromTxt {
 	double sumProfit = 0.0;
@@ -37,7 +36,7 @@ public class CalcutatorProfitFromTxt {
 	}
 
 	public void run() {
-		String folderPath = "C:/Users/phj/vvip/realTrade/past_buy/data/201701";
+		String folderPath = "C:/Users/phj/vvip/realTrade/past_buy/data/201702/20170227";
 		final File folder = new File(folderPath);
 		ArrayList<String> paths = listFilesForFolder(folder);
 		for (String path : paths) {
@@ -50,10 +49,15 @@ public class CalcutatorProfitFromTxt {
 				String s;
 				String symbol = "";
 				String volumen = "0";
+				String peb = "";
 				boolean isFirstLine = true;
 				while ((s = in.readLine()) != null) {
-					if (s.contains("volume:") && isFirstLine) {
+					if (s.contains("PEB:") && isFirstLine) {
 						isFirstLine = false;
+						String d[] = s.split("PEB:");
+						peb = d[1].trim();
+					}
+					if (s.contains("volume:")) {
 						String d[] = s.split(" ");
 						symbol = d[0];
 						volumen = d[2];
@@ -75,7 +79,7 @@ public class CalcutatorProfitFromTxt {
 				}
 				in.close();
 				if (dataList.size() > 0) {
-					trading(symbol, volumen, path, dataList);
+					trading(symbol, volumen, path, peb, dataList);
 				}
 			} catch (IOException e) {
 				System.err.println(e); // 占쎈퓠占쎌쑎揶쏉옙 占쎌뿳占쎈뼄筌롳옙 筌롫뗄�뻻筌욑옙 �빊�뮆�젾
@@ -85,7 +89,10 @@ public class CalcutatorProfitFromTxt {
 		System.out.println("success: " + nS + " fail: " + nF);
 	}
 
-	private void trading(String symbol, String preVolume, String readPath, ArrayList<ArrayList<String>> dataList) {
+	private void trading(String symbol, String preVolume, String readPath, String peb, ArrayList<ArrayList<String>> dataList) {
+		if(!peb.equals("") && peb.equals("False")){
+			return;
+		}
 		TodayRealTimeSymbolType tradeSymbol = new TodayRealTimeSymbolType(symbol);
 		String buyData = "";
 		double buyProfit = 0.0;
@@ -164,6 +171,11 @@ public class CalcutatorProfitFromTxt {
 			checkArray.add(diffProfit >= 3);
 			checkArray.add(mHour == 10 || mHour == 9 && mMinute >= 2);
 			checkArray.add(((currentPrice * diff) / 10000000) > 2);
+			
+			
+			
+			
+//			checkArray.add(((currentPrice * diff) / 100000000) > 1);
 //			checkArray.add(tradeSymbol.preMaxProfit < currentPrice);
 //			checkArray.add((Integer.parseInt(preVolume) *  currentPrice / 10000000) > 1);
 
@@ -204,13 +216,17 @@ public class CalcutatorProfitFromTxt {
 			tradeSymbol.preProfit = currentProfit;
 		}
 		if (buyProfit != 0) {
+//			if(!CommonUtil.isPEROK(symbol)){
+//				return;
+//			}
+			System.out.println("peb:" + peb);
 			if (isSucces11) {
 				nS++;
-//				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t success: " + readPath + " " + buyData);
+				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t success: " + readPath + " " + buyData);
 				 System.out.println("-----------S min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: "+ (Double.parseDouble(dataList.get(dataList.size() -1).get(2)) - buyProfit));
 			} else {
 				nF++;
-//				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t fail: " + readPath + " " + buyData);
+				System.out.println(preVolume + "\t : " + (Integer.parseInt(preVolume) *  buyPrice / 10000000) + "\t fail: " + readPath + " " + buyData);
 				 System.out.println("----------F min: " + minProfitAfterBuy + " max: " + maxProfitAfterBuy + " close: " + (Double.parseDouble(dataList.get(dataList.size() - 1).get(2)) -buyProfit));
 				// for (int i = 0; i < quoteList.getSize(); i++) {
 				// if (quoteList.getQuote(i).getTradeDate().toInt() > date) {
